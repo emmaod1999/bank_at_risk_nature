@@ -1,0 +1,653 @@
+Process,Ecosystem Service,Rating,Rating Num
+Airport services,Mass stabilisation and erosion control,M,0.6
+Airport services,Ground water,M,0.6
+Airport services,Surface water,M,0.6
+Airport services,Climate regulation,M,0.6
+Airport services,Flood and storm protection,H,0.8
+Alcoholic fermentation and distilling,Ground water,VH,1.0
+Alcoholic fermentation and distilling,Surface water,VH,1.0
+Alcoholic fermentation and distilling,Filtration,L,0.4
+Alcoholic fermentation and distilling,Dilution by atmosphere and ecosystems,L,0.4
+Alcoholic fermentation and distilling,Mass stabilisation and erosion control,L,0.4
+Alcoholic fermentation and distilling,Genetic materials,M,0.6
+Alcoholic fermentation and distilling,Water flow maintenance,M,0.6
+Alcoholic fermentation and distilling,Water quality,M,0.6
+Alcoholic fermentation and distilling,Flood and storm protection,M,0.6
+Alcoholic fermentation and distilling,Soil quality,M,0.6
+Alumina refining,Ground water,M,0.6
+Alumina refining,Surface water,M,0.6
+Alumina refining,Water flow maintenance,M,0.6
+Alumina refining,Mass stabilisation and erosion control,L,0.4
+Alumina refining,Climate regulation,M,0.6
+Aquaculture,Pest control,M,0.6
+Aquaculture,Disease control,M,0.6
+Aquaculture,Ventilation,M,0.6
+Aquaculture,Water flow maintenance,H,0.8
+Aquaculture,Mass stabilisation and erosion control,H,0.8
+Aquaculture,Water quality,H,0.8
+Aquaculture,Fibres and other materials,VH,1.0
+Aquaculture,Filtration,L,0.4
+Aquaculture,Surface water,M,0.6
+Aquaculture,Genetic materials,VL,0.2
+Aquaculture,Ground water,VL,0.2
+Aquaculture,Soil quality,VL,0.2
+Aquaculture,Buffering and attenuation of mass flows,M,0.6
+Aquaculture,Bio-remediation,M,0.6
+Aquaculture,Dilution by atmosphere and ecosystems,M,0.6
+Aquaculture,Maintain nursery habitats,M,0.6
+Aquaculture,Climate regulation,H,0.8
+Aquaculture,Flood and storm protection,H,0.8
+Biomass energy production,Mass stabilisation and erosion control,L,0.4
+Biomass energy production,Water flow maintenance,M,0.6
+Biomass energy production,Flood and storm protection,M,0.6
+Biomass energy production,Water quality,L,0.4
+Biomass energy production,Ground water,M,0.6
+Biomass energy production,Surface water,M,0.6
+Biomass energy production,Fibres and other materials,VH,1.0
+Biomass energy production,Filtration,VL,0.2
+Biomass energy production,Bio-remediation,VL,0.2
+Biomass energy production,Climate regulation,VL,0.2
+Cable and satellite installations on land,Mass stabilisation and erosion control,M,0.6
+Cable and satellite installations on land,Soil quality,M,0.6
+Cable and satellite installations on land,Climate regulation,M,0.6
+"Catalytic cracking, fractional distillation and crystallization",Mass stabilisation and erosion control,L,0.4
+"Catalytic cracking, fractional distillation and crystallization",Flood and storm protection,M,0.6
+"Catalytic cracking, fractional distillation and crystallization",Ground water,H,0.8
+"Catalytic cracking, fractional distillation and crystallization",Surface water,H,0.8
+"Catalytic cracking, fractional distillation and crystallization",Mediation of sensory impacts,L,0.4
+"Catalytic cracking, fractional distillation and crystallization",Water flow maintenance,L,0.4
+"Catalytic cracking, fractional distillation and crystallization",Water quality,L,0.4
+"Catalytic cracking, fractional distillation and crystallization",Climate regulation,L,0.4
+"Catalytic cracking, fractional distillation and crystallization",Filtration,VL,0.2
+"Catalytic cracking, fractional distillation and crystallization",Bio-remediation,VL,0.2
+"Catalytic cracking, fractional distillation and crystallization",Ventilation,VL,0.2
+Construction,Mass stabilisation and erosion control,M,0.6
+Construction,Filtration,L,0.4
+Construction,Bio-remediation,L,0.4
+Construction,Soil quality,L,0.4
+Construction,Ventilation,VL,0.2
+Construction,Pest control,VL,0.2
+Construction,Ground water,M,0.6
+Construction,Surface water,M,0.6
+Construction,Mediation of sensory impacts,M,0.6
+Construction,Water flow maintenance,M,0.6
+Construction,Climate regulation,H,0.8
+Construction,Flood and storm protection,H,0.8
+Construction materials production,Dilution by atmosphere and ecosystems,L,0.4
+Construction materials production,Water quality,L,0.4
+Construction materials production,Mediation of sensory impacts,L,0.4
+Construction materials production,Ground water,VH,1.0
+Construction materials production,Surface water,VH,1.0
+Cruise line provision,Ground water,M,0.6
+Cruise line provision,Mass stabilisation and erosion control,L,0.4
+Cruise line provision,Water quality,L,0.4
+Cruise line provision,Climate regulation,H,0.8
+Cruise line provision,Flood and storm protection,H,0.8
+Cruise line provision,Surface water,M,0.6
+Cryogenic air separation,Mass stabilisation and erosion control,L,0.4
+Cryogenic air separation,Ground water,L,0.4
+Cryogenic air separation,Surface water,L,0.4
+Cryogenic air separation,Mediation of sensory impacts,L,0.4
+Cryogenic air separation,Water flow maintenance,L,0.4
+Cryogenic air separation,Water quality,L,0.4
+Cryogenic air separation,Filtration,VL,0.2
+Cryogenic air separation,Bio-remediation,VL,0.2
+Cryogenic air separation,Dilution by atmosphere and ecosystems,VL,0.2
+Cryogenic air separation,Ventilation,VL,0.2
+Cryogenic air separation,Climate regulation,VL,0.2
+Cryogenic air separation,Flood and storm protection,M,0.6
+Distribution,Mass stabilisation and erosion control,M,0.6
+Distribution,Flood and storm protection,M,0.6
+Distribution,Climate regulation,H,0.8
+Electric/nuclear power transmission and distribution,Climate regulation,M,0.6
+Electric/nuclear power transmission and distribution,Mass stabilisation and erosion control,H,0.8
+Electric/nuclear power transmission and distribution,Flood and storm protection,VH,1.0
+Electronics and hardware production,Ground water,M,0.6
+Electronics and hardware production,Surface water,M,0.6
+Electronics and hardware production,Dilution by atmosphere and ecosystems,L,0.4
+Environmental and facilities services,Filtration,L,0.4
+Environmental and facilities services,Ground water,VL,0.2
+Environmental and facilities services,Surface water,VL,0.2
+Fibre-optic cable installation (marine),Mass stabilisation and erosion control,M,0.6
+Fibre-optic cable installation (marine),Climate regulation,M,0.6
+Fibre-optic cable installation (marine),Water quality,L,0.4
+Fibre-optic cable installation (marine),Buffering and attenuation of mass flows,H,0.8
+Financial services,Mass stabilisation and erosion control,L,0.4
+Footwear production,Filtration,L,0.4
+Footwear production,Bio-remediation,L,0.4
+Footwear production,Dilution by atmosphere and ecosystems,L,0.4
+Footwear production,Mass stabilisation and erosion control,L,0.4
+Footwear production,Water quality,L,0.4
+Footwear production,Water flow maintenance,M,0.6
+Footwear production,Flood and storm protection,M,0.6
+Freshwater wild-caught fish,Ventilation,L,0.4
+Freshwater wild-caught fish,Pest control,L,0.4
+Freshwater wild-caught fish,Disease control,L,0.4
+Freshwater wild-caught fish,Dilution by atmosphere and ecosystems,VL,0.2
+Freshwater wild-caught fish,Mass stabilisation and erosion control,VL,0.2
+Freshwater wild-caught fish,Soil quality,M,0.6
+Freshwater wild-caught fish,Genetic materials,M,0.6
+Freshwater wild-caught fish,Surface water,VH,1.0
+Freshwater wild-caught fish,Buffering and attenuation of mass flows,VH,1.0
+Freshwater wild-caught fish,Maintain nursery habitats,VH,1.0
+Freshwater wild-caught fish,Water quality,VH,1.0
+Freshwater wild-caught fish,Climate regulation,VH,1.0
+Gas adsorption,Mass stabilisation and erosion control,L,0.4
+Gas adsorption,Ground water,L,0.4
+Gas adsorption,Surface water,L,0.4
+Gas adsorption,Mediation of sensory impacts,L,0.4
+Gas adsorption,Water flow maintenance,L,0.4
+Gas adsorption,Water quality,L,0.4
+Gas adsorption,Filtration,VL,0.2
+Gas adsorption,Bio-remediation,VL,0.2
+Gas adsorption,Dilution by atmosphere and ecosystems,VL,0.2
+Gas adsorption,Ventilation,VL,0.2
+Gas adsorption,Climate regulation,VL,0.2
+Gas adsorption,Flood and storm protection,M,0.6
+Gas distribution,Flood and storm protection,M,0.6
+Gas distribution,Climate regulation,M,0.6
+Gas distribution,Mass stabilisation and erosion control,H,0.8
+Gas retail,Filtration,VL,0.2
+Gas retail,Water flow maintenance,VL,0.2
+Gas retail,Water quality,VL,0.2
+Gas retail,Climate regulation,VL,0.2
+Gas retail,Flood and storm protection,M,0.6
+Geothermal energy production,Surface water,M,0.6
+Geothermal energy production,Mass stabilisation and erosion control,L,0.4
+Geothermal energy production,Water quality,L,0.4
+Geothermal energy production,Filtration,VL,0.2
+Geothermal energy production,Bio-remediation,VL,0.2
+Geothermal energy production,Climate regulation,VL,0.2
+Geothermal energy production,Water flow maintenance,M,0.6
+Geothermal energy production,Flood and storm protection,M,0.6
+Geothermal energy production,Ground water,VH,1.0
+Glass making,Water flow maintenance,M,0.6
+Glass making,Ground water,M,0.6
+Glass making,Surface water,M,0.6
+Hotels and resorts provision,Fibres and other materials,M,0.6
+Hotels and resorts provision,Mass stabilisation and erosion control,L,0.4
+Hotels and resorts provision,Water quality,L,0.4
+Hotels and resorts provision,Climate regulation,M,0.6
+Hotels and resorts provision,Flood and storm protection,M,0.6
+Hotels and resorts provision,Ground water,H,0.8
+Hotels and resorts provision,Surface water,H,0.8
+Houseware and specialities production,Ground water,M,0.6
+Houseware and specialities production,Dilution by atmosphere and ecosystems,L,0.4
+Houseware and specialities production,Surface water,M,0.6
+Hydropower production,Water quality,L,0.4
+Hydropower production,Filtration,VL,0.2
+Hydropower production,Bio-remediation,VL,0.2
+Hydropower production,Ground water,M,0.6
+Hydropower production,Mass stabilisation and erosion control,H,0.8
+Hydropower production,Flood and storm protection,H,0.8
+Hydropower production,Surface water,VH,1.0
+Hydropower production,Water flow maintenance,VH,1.0
+Hydropower production,Climate regulation,VH,1.0
+Incomplete combustion,Climate regulation,VL,0.2
+Incomplete combustion,Mass stabilisation and erosion control,L,0.4
+Incomplete combustion,Ventilation,VL,0.2
+Incomplete combustion,Ground water,L,0.4
+Incomplete combustion,Surface water,L,0.4
+Infrastructure builds,Mass stabilisation and erosion control,M,0.6
+Infrastructure holdings,Bio-remediation,VL,0.2
+Infrastructure holdings,Mass stabilisation and erosion control,L,0.4
+Infrastructure maintenance contracts,Filtration,L,0.4
+Infrastructure maintenance contracts,Bio-remediation,L,0.4
+Infrastructure maintenance contracts,Mediation of sensory impacts,VL,0.2
+Infrastructure maintenance contracts,Ventilation,VL,0.2
+Infrastructure maintenance contracts,Pest control,VL,0.2
+Infrastructure maintenance contracts,Soil quality,VL,0.2
+Infrastructure maintenance contracts,Water flow maintenance,M,0.6
+Infrastructure maintenance contracts,Climate regulation,M,0.6
+Infrastructure maintenance contracts,Flood and storm protection,H,0.8
+Integrated oil and gas,Filtration,M,0.6
+Integrated oil and gas,Mass stabilisation and erosion control,M,0.6
+Integrated oil and gas,Climate regulation,M,0.6
+Integrated oil and gas,Surface water,H,0.8
+Integrated oil and gas,Bio-remediation,M,0.6
+Integrated oil and gas,Flood and storm protection,H,0.8
+Integrated oil and gas,Water quality,H,0.8
+Integrated oil and gas,Ground water,VH,1.0
+Iron extraction,Mass stabilisation and erosion control,M,0.6
+Iron extraction,Ground water,H,0.8
+Iron extraction,Surface water,H,0.8
+Iron extraction,Water flow maintenance,M,0.6
+Iron extraction,Climate regulation,M,0.6
+Iron metal production,Ground water,M,0.6
+Iron metal production,Surface water,M,0.6
+Iron metal production,Water flow maintenance,M,0.6
+Iron metal production,Mass stabilisation and erosion control,VL,0.2
+Iron metal production,Climate regulation,VL,0.2
+Jewellery production,Water flow maintenance,M,0.6
+Jewellery production,Filtration,L,0.4
+Jewellery production,Bio-remediation,L,0.4
+Jewellery production,Dilution by atmosphere and ecosystems,L,0.4
+Jewellery production,Water quality,L,0.4
+Jewellery production,Mass stabilisation and erosion control,L,0.4
+Jewellery production,Flood and storm protection,M,0.6
+Jewellery production,Fibres and other materials,M,0.6
+Jewellery production,Ground water,M,0.6
+Jewellery production,Surface water,M,0.6
+Large-scale forestry,Water flow maintenance,H,0.8
+Large-scale forestry,Animal-based energy,VL,0.2
+Large-scale forestry,Filtration,VL,0.2
+Large-scale forestry,Bio-remediation,M,0.6
+Large-scale forestry,Pest control,H,0.8
+Large-scale forestry,Disease control,H,0.8
+Large-scale forestry,Pollination,H,0.8
+Large-scale forestry,Soil quality,H,0.8
+Large-scale forestry,Fibres and other materials,VH,1.0
+Large-scale forestry,Ground water,VH,1.0
+Large-scale forestry,Surface water,VH,1.0
+Large-scale forestry,Mass stabilisation and erosion control,VH,1.0
+Large-scale forestry,Flood and storm protection,VH,1.0
+Large-scale forestry,Climate regulation,VH,1.0
+Large-scale irrigated arable crops,Filtration,M,0.6
+Large-scale irrigated arable crops,Water flow maintenance,H,0.8
+Large-scale irrigated arable crops,Surface water,H,0.8
+Large-scale irrigated arable crops,Animal-based energy,VL,0.2
+Large-scale irrigated arable crops,Dilution by atmosphere and ecosystems,M,0.6
+Large-scale irrigated arable crops,Fibres and other materials,M,0.6
+Large-scale irrigated arable crops,Pollination,H,0.8
+Large-scale irrigated arable crops,Soil quality,H,0.8
+Large-scale irrigated arable crops,Water quality,H,0.8
+Large-scale irrigated arable crops,Buffering and attenuation of mass flows,H,0.8
+Large-scale irrigated arable crops,Climate regulation,H,0.8
+Large-scale irrigated arable crops,Pest control,H,0.8
+Large-scale irrigated arable crops,Disease control,H,0.8
+Large-scale irrigated arable crops,Ventilation,L,0.4
+Large-scale irrigated arable crops,Genetic materials,M,0.6
+Large-scale irrigated arable crops,Bio-remediation,M,0.6
+Large-scale irrigated arable crops,Ground water,VH,1.0
+Large-scale irrigated arable crops,Mass stabilisation and erosion control,VH,1.0
+Large-scale irrigated arable crops,Flood and storm protection,VH,1.0
+Large-scale livestock (beef and dairy),Filtration,M,0.6
+Large-scale livestock (beef and dairy),Bio-remediation,M,0.6
+Large-scale livestock (beef and dairy),Flood and storm protection,M,0.6
+Large-scale livestock (beef and dairy),Water quality,M,0.6
+Large-scale livestock (beef and dairy),Pest control,L,0.4
+Large-scale livestock (beef and dairy),Dilution by atmosphere and ecosystems,L,0.4
+Large-scale livestock (beef and dairy),Mediation of sensory impacts,L,0.4
+Large-scale livestock (beef and dairy),Buffering and attenuation of mass flows,L,0.4
+Large-scale livestock (beef and dairy),Mass stabilisation and erosion control,L,0.4
+Large-scale livestock (beef and dairy),Genetic materials,VL,0.2
+Large-scale livestock (beef and dairy),Ventilation,VL,0.2
+Large-scale livestock (beef and dairy),Pollination,VL,0.2
+Large-scale livestock (beef and dairy),Disease control,M,0.6
+Large-scale livestock (beef and dairy),Water flow maintenance,M,0.6
+Large-scale livestock (beef and dairy),Climate regulation,M,0.6
+Large-scale livestock (beef and dairy),Soil quality,H,0.8
+Large-scale livestock (beef and dairy),Fibres and other materials,VH,1.0
+Large-scale livestock (beef and dairy),Ground water,VH,1.0
+Large-scale livestock (beef and dairy),Surface water,VH,1.0
+Large-scale rainfed arable crops,Filtration,M,0.6
+Large-scale rainfed arable crops,Dilution by atmosphere and ecosystems,M,0.6
+Large-scale rainfed arable crops,Water flow maintenance,H,0.8
+Large-scale rainfed arable crops,Ventilation,L,0.4
+Large-scale rainfed arable crops,Water quality,VL,0.2
+Large-scale rainfed arable crops,Fibres and other materials,M,0.6
+Large-scale rainfed arable crops,Surface water,M,0.6
+Large-scale rainfed arable crops,Pollination,H,0.8
+Large-scale rainfed arable crops,Soil quality,H,0.8
+Large-scale rainfed arable crops,Buffering and attenuation of mass flows,H,0.8
+Large-scale rainfed arable crops,Climate regulation,H,0.8
+Large-scale rainfed arable crops,Pest control,H,0.8
+Large-scale rainfed arable crops,Disease control,H,0.8
+Large-scale rainfed arable crops,Genetic materials,M,0.6
+Large-scale rainfed arable crops,Bio-remediation,M,0.6
+Large-scale rainfed arable crops,Mass stabilisation and erosion control,VH,1.0
+Large-scale rainfed arable crops,Flood and storm protection,VH,1.0
+Large-scale rainfed arable crops,Animal-based energy,VL,0.2
+Leisure facility provision,Water quality,L,0.4
+Leisure facility provision,Mass stabilisation and erosion control,L,0.4
+Leisure facility provision,Ground water,M,0.6
+Leisure facility provision,Flood and storm protection,M,0.6
+Leisure facility provision,Surface water,H,0.8
+"Life science, pharma and biotech manufacture",Genetic materials,M,0.6
+"Life science, pharma and biotech manufacture",Surface water,H,0.8
+"Life science, pharma and biotech manufacture",Water quality,L,0.4
+"Life science, pharma and biotech manufacture",Filtration,VL,0.2
+"Life science, pharma and biotech manufacture",Bio-remediation,VL,0.2
+"Life science, pharma and biotech manufacture",Mass stabilisation and erosion control,L,0.4
+"Life science, pharma and biotech manufacture",Water flow maintenance,M,0.6
+"Life science, pharma and biotech manufacture",Ground water,M,0.6
+"Life science, pharma and biotech tools and services",Surface water,H,0.8
+"Life science, pharma and biotech tools and services",Dilution by atmosphere and ecosystems,VL,0.2
+"Life science, pharma and biotech tools and services",Ground water,M,0.6
+Managed health care,Mass stabilisation and erosion control,VL,0.2
+"Manufacture of machinery, parts and equipment",Flood and storm protection,M,0.6
+"Manufacture of machinery, parts and equipment",Dilution by atmosphere and ecosystems,L,0.4
+"Manufacture of machinery, parts and equipment",Water quality,L,0.4
+"Manufacture of machinery, parts and equipment",Mediation of sensory impacts,M,0.6
+"Manufacture of machinery, parts and equipment",Filtration,VL,0.2
+"Manufacture of machinery, parts and equipment",Mass stabilisation and erosion control,VL,0.2
+"Manufacture of machinery, parts and equipment",Ventilation,VL,0.2
+"Manufacture of machinery, parts and equipment",Climate regulation,VL,0.2
+"Manufacture of machinery, parts and equipment",Surface water,M,0.6
+"Manufacture of machinery, parts and equipment",Water flow maintenance,M,0.6
+"Manufacture of machinery, parts and equipment",Ground water,M,0.6
+Manufacture of semiconductor equipment,Filtration,L,0.4
+Marine ports and services,Mass stabilisation and erosion control,M,0.6
+Marine ports and services,Water quality,L,0.4
+Marine ports and services,Water flow maintenance,M,0.6
+Marine ports and services,Climate regulation,M,0.6
+Marine ports and services,Flood and storm protection,M,0.6
+Marine ports and services,Surface water,H,0.8
+Marine ports and services,Ground water,H,0.8
+Marine transportation,Ground water,M,0.6
+Marine transportation,Surface water,M,0.6
+Marine transportation,Water quality,M,0.6
+Marine transportation,Flood and storm protection,H,0.8
+Marine transportation,Climate regulation,VH,1.0
+Membrane technology,Flood and storm protection,M,0.6
+Membrane technology,Ground water,L,0.4
+Membrane technology,Surface water,L,0.4
+Membrane technology,Mediation of sensory impacts,L,0.4
+Membrane technology,Water flow maintenance,L,0.4
+Membrane technology,Water quality,L,0.4
+Membrane technology,Filtration,VL,0.2
+Membrane technology,Bio-remediation,VL,0.2
+Membrane technology,Dilution by atmosphere and ecosystems,VL,0.2
+Membrane technology,Ventilation,VL,0.2
+Membrane technology,Climate regulation,VL,0.2
+Membrane technology,Mass stabilisation and erosion control,L,0.4
+Metal processing,Flood and storm protection,M,0.6
+Metal processing,Ground water,M,0.6
+Metal processing,Surface water,M,0.6
+Metal processing,Water flow maintenance,M,0.6
+Metal processing,Filtration,L,0.4
+Metal processing,Bio-remediation,L,0.4
+Metal processing,Dilution by atmosphere and ecosystems,L,0.4
+Metal processing,Mediation of sensory impacts,L,0.4
+Metal processing,Water quality,L,0.4
+Metal processing,Mass stabilisation and erosion control,VL,0.2
+Metal processing,Ventilation,VL,0.2
+Metal processing,Climate regulation,VL,0.2
+Mining,Mass stabilisation and erosion control,M,0.6
+Mining,Surface water,H,0.8
+Mining,Water flow maintenance,H,0.8
+Mining,Ground water,H,0.8
+Mining,Climate regulation,H,0.8
+Natural fibre production,Flood and storm protection,M,0.6
+Natural fibre production,Filtration,L,0.4
+Natural fibre production,Bio-remediation,L,0.4
+Natural fibre production,Dilution by atmosphere and ecosystems,L,0.4
+Natural fibre production,Water quality,L,0.4
+Natural fibre production,Mass stabilisation and erosion control,L,0.4
+Natural fibre production,Water flow maintenance,M,0.6
+Natural fibre production,Fibres and other materials,M,0.6
+Natural fibre production,Ground water,VH,1.0
+Natural fibre production,Surface water,VH,1.0
+Natural gas combustion,Flood and storm protection,M,0.6
+Natural gas combustion,Ground water,M,0.6
+Natural gas combustion,Filtration,L,0.4
+Natural gas combustion,Bio-remediation,L,0.4
+Natural gas combustion,Dilution by atmosphere and ecosystems,L,0.4
+Natural gas combustion,Mediation of sensory impacts,L,0.4
+Natural gas combustion,Water quality,L,0.4
+Natural gas combustion,Ventilation,VL,0.2
+Natural gas combustion,Climate regulation,VL,0.2
+Natural gas combustion,Mass stabilisation and erosion control,L,0.4
+Natural gas combustion,Water flow maintenance,M,0.6
+Natural gas combustion,Surface water,M,0.6
+Nuclear and thermal power stations,Flood and storm protection,M,0.6
+Nuclear and thermal power stations,Filtration,L,0.4
+Nuclear and thermal power stations,Water quality,L,0.4
+Nuclear and thermal power stations,Bio-remediation,VL,0.2
+Nuclear and thermal power stations,Climate regulation,VL,0.2
+Nuclear and thermal power stations,Mass stabilisation and erosion control,L,0.4
+Nuclear and thermal power stations,Ground water,M,0.6
+Nuclear and thermal power stations,Water flow maintenance,M,0.6
+Nuclear and thermal power stations,Surface water,VH,1.0
+Oil and gas drilling,Mass stabilisation and erosion control,L,0.4
+Oil and gas drilling,Ground water,VL,0.2
+Oil and gas drilling,Surface water,VL,0.2
+Oil and gas drilling,Filtration,VL,0.2
+Oil and gas drilling,Bio-remediation,VL,0.2
+Oil and gas drilling,Flood and storm protection,VL,0.2
+Oil and gas drilling,Climate regulation,VL,0.2
+Oil and gas exploration surveys,Mass stabilisation and erosion control,L,0.4
+Oil and gas exploration surveys,Flood and storm protection,VL,0.2
+Oil and gas exploration surveys,Climate regulation,M,0.6
+Oil and gas refining,Flood and storm protection,M,0.6
+Oil and gas refining,Ground water,L,0.4
+Oil and gas refining,Surface water,L,0.4
+Oil and gas refining,Mass stabilisation and erosion control,L,0.4
+Oil and gas refining,Water quality,L,0.4
+Oil and gas refining,Filtration,VL,0.2
+Oil and gas refining,Bio-remediation,VL,0.2
+Oil and gas refining,Climate regulation,VL,0.2
+Oil and gas services,Climate regulation,L,0.4
+Oil and gas storage,Flood and storm protection,M,0.6
+Oil and gas storage,Mass stabilisation and erosion control,L,0.4
+Oil and gas storage,Climate regulation,VL,0.2
+Oil and gas transportation,Flood and storm protection,M,0.6
+Oil and gas transportation,Climate regulation,M,0.6
+Oil and gas transportation,Mass stabilisation and erosion control,H,0.8
+Paper packaging production,Bio-remediation,L,0.4
+Paper packaging production,Dilution by atmosphere and ecosystems,L,0.4
+Polymerization,Ground water,L,0.4
+Polymerization,Surface water,L,0.4
+Polymerization,Mediation of sensory impacts,L,0.4
+Polymerization,Mass stabilisation and erosion control,L,0.4
+Processed food and drink production,Flood and storm protection,M,0.6
+Processed food and drink production,Filtration,L,0.4
+Processed food and drink production,Bio-remediation,L,0.4
+Processed food and drink production,Dilution by atmosphere and ecosystems,L,0.4
+Processed food and drink production,Soil quality,VL,0.2
+Processed food and drink production,Mass stabilisation and erosion control,L,0.4
+Processed food and drink production,Water flow maintenance,M,0.6
+Processed food and drink production,Water quality,M,0.6
+Processed food and drink production,Ground water,VH,1.0
+Processed food and drink production,Surface water,VH,1.0
+Production of forest and wood-based products,Flood and storm protection,M,0.6
+Production of forest and wood-based products,Mass stabilisation and erosion control,L,0.4
+Production of forest and wood-based products,Water flow maintenance,M,0.6
+Production of forest and wood-based products,Ground water,H,0.8
+Production of forest and wood-based products,Surface water,VH,1.0
+Production of leisure or personal products,Dilution by atmosphere and ecosystems,L,0.4
+Production of leisure or personal products,Ground water,H,0.8
+Production of leisure or personal products,Surface water,H,0.8
+Production of leisure or personal products,Fibres and other materials,M,0.6
+Production of paper products,Climate regulation,VL,0.2
+Production of paper products,Water flow maintenance,M,0.6
+Production of paper products,Fibres and other materials,M,0.6
+Production of paper products,Ground water,VH,1.0
+Production of paper products,Surface water,VH,1.0
+Provision of health care,Ground water,M,0.6
+Provision of health care,Mass stabilisation and erosion control,L,0.4
+Provision of health care,Surface water,M,0.6
+Railway transportation,Climate regulation,M,0.6
+Railway transportation,Ventilation,VL,0.2
+Railway transportation,Pest control,VL,0.2
+Railway transportation,Ground water,M,0.6
+Railway transportation,Surface water,M,0.6
+Railway transportation,Flood and storm protection,M,0.6
+Railway transportation,Mass stabilisation and erosion control,H,0.8
+Real estate activities,Bio-remediation,L,0.4
+Real estate activities,Mediation of sensory impacts,L,0.4
+Real estate activities,Filtration,VL,0.2
+Real estate activities,Flood and storm protection,VL,0.2
+Real estate activities,Mass stabilisation and erosion control,L,0.4
+Real estate activities,Surface water,H,0.8
+Real estate activities,Ground water,M,0.6
+Recovery and separation of carbon dioxide,Flood and storm protection,M,0.6
+Recovery and separation of carbon dioxide,Ground water,L,0.4
+Recovery and separation of carbon dioxide,Surface water,L,0.4
+Recovery and separation of carbon dioxide,Mediation of sensory impacts,L,0.4
+Recovery and separation of carbon dioxide,Water flow maintenance,L,0.4
+Recovery and separation of carbon dioxide,Water quality,L,0.4
+Recovery and separation of carbon dioxide,Filtration,VL,0.2
+Recovery and separation of carbon dioxide,Bio-remediation,VL,0.2
+Recovery and separation of carbon dioxide,Dilution by atmosphere and ecosystems,VL,0.2
+Recovery and separation of carbon dioxide,Ventilation,VL,0.2
+Recovery and separation of carbon dioxide,Climate regulation,VL,0.2
+Recovery and separation of carbon dioxide,Mass stabilisation and erosion control,L,0.4
+Restaurant provision,Flood and storm protection,M,0.6
+Restaurant provision,Climate regulation,M,0.6
+Restaurant provision,Ventilation,VL,0.2
+Restaurant provision,Mass stabilisation and erosion control,L,0.4
+Restaurant provision,Ground water,M,0.6
+Saltwater wild-caught fish,Pest control,L,0.4
+Saltwater wild-caught fish,Dilution by atmosphere and ecosystems,VL,0.2
+Saltwater wild-caught fish,Mass stabilisation and erosion control,VL,0.2
+Saltwater wild-caught fish,Ventilation,VL,0.2
+Saltwater wild-caught fish,Soil quality,VL,0.2
+Saltwater wild-caught fish,Buffering and attenuation of mass flows,M,0.6
+Saltwater wild-caught fish,Genetic materials,M,0.6
+Saltwater wild-caught fish,Surface water,VH,1.0
+Saltwater wild-caught fish,Maintain nursery habitats,VH,1.0
+Saltwater wild-caught fish,Water quality,VH,1.0
+Small-scale forestry,Filtration,VL,0.2
+Small-scale forestry,Bio-remediation,M,0.6
+Small-scale forestry,Soil quality,H,0.8
+Small-scale forestry,Pollination,H,0.8
+Small-scale forestry,Flood and storm protection,M,0.6
+Small-scale forestry,Fibres and other materials,VH,1.0
+Small-scale forestry,Ground water,VH,1.0
+Small-scale forestry,Surface water,VH,1.0
+Small-scale forestry,Animal-based energy,VH,1.0
+Small-scale forestry,Mass stabilisation and erosion control,VH,1.0
+Small-scale forestry,Water flow maintenance,VH,1.0
+Small-scale forestry,Pest control,VH,1.0
+Small-scale forestry,Disease control,VH,1.0
+Small-scale forestry,Climate regulation,VH,1.0
+Small-scale irrigated arable crops,Filtration,M,0.6
+Small-scale irrigated arable crops,Dilution by atmosphere and ecosystems,M,0.6
+Small-scale irrigated arable crops,Ventilation,L,0.4
+Small-scale irrigated arable crops,Fibres and other materials,M,0.6
+Small-scale irrigated arable crops,Buffering and attenuation of mass flows,H,0.8
+Small-scale irrigated arable crops,Genetic materials,M,0.6
+Small-scale irrigated arable crops,Bio-remediation,M,0.6
+Small-scale irrigated arable crops,Ground water,VH,1.0
+Small-scale irrigated arable crops,Surface water,VH,1.0
+Small-scale irrigated arable crops,Animal-based energy,VH,1.0
+Small-scale irrigated arable crops,Mass stabilisation and erosion control,VH,1.0
+Small-scale irrigated arable crops,Water flow maintenance,VH,1.0
+Small-scale irrigated arable crops,Flood and storm protection,VH,1.0
+Small-scale irrigated arable crops,Pollination,VH,1.0
+Small-scale irrigated arable crops,Pest control,VH,1.0
+Small-scale irrigated arable crops,Disease control,VH,1.0
+Small-scale irrigated arable crops,Soil quality,VH,1.0
+Small-scale irrigated arable crops,Water quality,VH,1.0
+Small-scale irrigated arable crops,Climate regulation,VH,1.0
+Small-scale livestock (beef and dairy),Filtration,M,0.6
+Small-scale livestock (beef and dairy),Bio-remediation,M,0.6
+Small-scale livestock (beef and dairy),Disease control,H,0.8
+Small-scale livestock (beef and dairy),Water flow maintenance,H,0.8
+Small-scale livestock (beef and dairy),Dilution by atmosphere and ecosystems,L,0.4
+Small-scale livestock (beef and dairy),Mediation of sensory impacts,L,0.4
+Small-scale livestock (beef and dairy),Buffering and attenuation of mass flows,L,0.4
+Small-scale livestock (beef and dairy),Mass stabilisation and erosion control,L,0.4
+Small-scale livestock (beef and dairy),Genetic materials,VL,0.2
+Small-scale livestock (beef and dairy),Ventilation,VL,0.2
+Small-scale livestock (beef and dairy),Pollination,VL,0.2
+Small-scale livestock (beef and dairy),Soil quality,H,0.8
+Small-scale livestock (beef and dairy),Climate regulation,H,0.8
+Small-scale livestock (beef and dairy),Pest control,M,0.6
+Small-scale livestock (beef and dairy),Fibres and other materials,VH,1.0
+Small-scale livestock (beef and dairy),Ground water,VH,1.0
+Small-scale livestock (beef and dairy),Surface water,VH,1.0
+Small-scale livestock (beef and dairy),Flood and storm protection,VH,1.0
+Small-scale livestock (beef and dairy),Water quality,VH,1.0
+Small-scale rainfed arable crops,Filtration,M,0.6
+Small-scale rainfed arable crops,Ventilation,L,0.4
+Small-scale rainfed arable crops,Water quality,VL,0.2
+Small-scale rainfed arable crops,Fibres and other materials,M,0.6
+Small-scale rainfed arable crops,Surface water,M,0.6
+Small-scale rainfed arable crops,Buffering and attenuation of mass flows,H,0.8
+Small-scale rainfed arable crops,Genetic materials,M,0.6
+Small-scale rainfed arable crops,Bio-remediation,M,0.6
+Small-scale rainfed arable crops,Dilution by atmosphere and ecosystems,M,0.6
+Small-scale rainfed arable crops,Animal-based energy,VH,1.0
+Small-scale rainfed arable crops,Mass stabilisation and erosion control,VH,1.0
+Small-scale rainfed arable crops,Water flow maintenance,VH,1.0
+Small-scale rainfed arable crops,Flood and storm protection,VH,1.0
+Small-scale rainfed arable crops,Pollination,VH,1.0
+Small-scale rainfed arable crops,Pest control,VH,1.0
+Small-scale rainfed arable crops,Disease control,VH,1.0
+Small-scale rainfed arable crops,Soil quality,VH,1.0
+Small-scale rainfed arable crops,Climate regulation,VH,1.0
+Solar energy provision,Mass stabilisation and erosion control,M,0.6
+Solar energy provision,Ground water,VL,0.2
+Solar energy provision,Surface water,VL,0.2
+Solar energy provision,Flood and storm protection,M,0.6
+Solar energy provision,Climate regulation,VH,1.0
+Solids processing,Flood and storm protection,M,0.6
+Solids processing,Ground water,L,0.4
+Solids processing,Surface water,L,0.4
+Solids processing,Filtration,L,0.4
+Solids processing,Dilution by atmosphere and ecosystems,L,0.4
+Solids processing,Mediation of sensory impacts,L,0.4
+Solids processing,Water flow maintenance,L,0.4
+Solids processing,Water quality,L,0.4
+Solids processing,Bio-remediation,VL,0.2
+Solids processing,Ventilation,VL,0.2
+Solids processing,Climate regulation,VL,0.2
+Solids processing,Mass stabilisation and erosion control,L,0.4
+Steel production,Ground water,M,0.6
+Steel production,Surface water,M,0.6
+Steel production,Water flow maintenance,M,0.6
+Steel production,Climate regulation,VL,0.2
+Steel production,Mass stabilisation and erosion control,L,0.4
+Synthetic fertilizer production,Flood and storm protection,M,0.6
+Synthetic fertilizer production,Ground water,L,0.4
+Synthetic fertilizer production,Surface water,L,0.4
+Synthetic fertilizer production,Dilution by atmosphere and ecosystems,L,0.4
+Synthetic fertilizer production,Mediation of sensory impacts,L,0.4
+Synthetic fertilizer production,Water flow maintenance,L,0.4
+Synthetic fertilizer production,Water quality,L,0.4
+Synthetic fertilizer production,Genetic materials,VL,0.2
+Synthetic fertilizer production,Filtration,VL,0.2
+Synthetic fertilizer production,Bio-remediation,VL,0.2
+Synthetic fertilizer production,Mass stabilisation and erosion control,VL,0.2
+Synthetic fertilizer production,Ventilation,VL,0.2
+Synthetic fertilizer production,Climate regulation,VL,0.2
+Synthetic fibre production,Flood and storm protection,M,0.6
+Synthetic fibre production,Water flow maintenance,M,0.6
+Synthetic fibre production,Filtration,L,0.4
+Synthetic fibre production,Bio-remediation,L,0.4
+Synthetic fibre production,Dilution by atmosphere and ecosystems,L,0.4
+Synthetic fibre production,Water quality,L,0.4
+Synthetic fibre production,Mass stabilisation and erosion control,VL,0.2
+Synthetic fibre production,Fibres and other materials,M,0.6
+Synthetic fibre production,Ground water,VH,1.0
+Synthetic fibre production,Surface water,VH,1.0
+Telecommunication and wireless services,Climate regulation,M,0.6
+Telecommunication and wireless services,Flood and storm protection,VH,1.0
+Tobacco production,Mass stabilisation and erosion control,L,0.4
+Tobacco production,Water flow maintenance,M,0.6
+Tobacco production,Fibres and other materials,VH,1.0
+Tobacco production,Ground water,VH,1.0
+Tobacco production,Surface water,VH,1.0
+Tyre and rubber production,Flood and storm protection,M,0.6
+Tyre and rubber production,Ground water,H,0.8
+Tyre and rubber production,Surface water,H,0.8
+Tyre and rubber production,Filtration,L,0.4
+Tyre and rubber production,Bio-remediation,L,0.4
+Tyre and rubber production,Dilution by atmosphere and ecosystems,L,0.4
+Tyre and rubber production,Mediation of sensory impacts,L,0.4
+Tyre and rubber production,Water quality,L,0.4
+Tyre and rubber production,Ventilation,VL,0.2
+Tyre and rubber production,Climate regulation,VL,0.2
+Tyre and rubber production,Mass stabilisation and erosion control,L,0.4
+Tyre and rubber production,Water flow maintenance,M,0.6
+Vulcanisation,Ground water,L,0.4
+Vulcanisation,Surface water,L,0.4
+Vulcanisation,Mass stabilisation and erosion control,L,0.4
+"Water services (e.g. waste water, treatment and distribution)",Filtration,M,0.6
+"Water services (e.g. waste water, treatment and distribution)",Bio-remediation,M,0.6
+"Water services (e.g. waste water, treatment and distribution)",Flood and storm protection,M,0.6
+"Water services (e.g. waste water, treatment and distribution)",Mediation of sensory impacts,L,0.4
+"Water services (e.g. waste water, treatment and distribution)",Buffering and attenuation of mass flows,L,0.4
+"Water services (e.g. waste water, treatment and distribution)",Mass stabilisation and erosion control,L,0.4
+"Water services (e.g. waste water, treatment and distribution)",Pest control,L,0.4
+"Water services (e.g. waste water, treatment and distribution)",Climate regulation,M,0.6
+"Water services (e.g. waste water, treatment and distribution)",Soil quality,M,0.6
+"Water services (e.g. waste water, treatment and distribution)",Water quality,H,0.8
+"Water services (e.g. waste water, treatment and distribution)",Ground water,VH,1.0
+"Water services (e.g. waste water, treatment and distribution)",Surface water,VH,1.0
+"Water services (e.g. waste water, treatment and distribution)",Water flow maintenance,VH,1.0
+Wind energy provision,Mass stabilisation and erosion control,M,0.6
+Wind energy provision,Flood and storm protection,M,0.6
+Wind energy provision,Climate regulation,VH,1.0

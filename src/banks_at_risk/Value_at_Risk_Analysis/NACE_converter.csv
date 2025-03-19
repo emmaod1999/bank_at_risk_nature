@@ -1,0 +1,164 @@
+sector,Code
+Cultivation of paddy rice,A
+Cultivation of wheat,A
+Cultivation of cereal grains nec,A
+"Cultivation of vegetables, fruit, nuts",A
+Cultivation of oil seeds,A
+"Cultivation of sugar cane, sugar beet",A
+Cultivation of plant-based fibers,A
+Cultivation of crops nec,A
+Cattle farming,A
+Pigs farming,A
+Poultry farming,A
+Meat animals nec,A
+Animal products nec,A
+Raw milk,A
+"Wool, silk-worm cocoons",A
+"Manure treatment (conventional), storage and land application",E
+"Manure treatment (biogas), storage and land application",E
+"Forestry, logging and related service activities (02)",A
+"Fishing, operating of fish hatcheries and fish farms; service activities incidental to fishing (05)",A
+Mining of coal and lignite; extraction of peat (10),B
+"Extraction of crude petroleum and services related to crude oil extraction, excluding surveying",B
+"Extraction of natural gas and services related to natural gas extraction, excluding surveying",B
+"Extraction, liquefaction, and regasification of other petroleum and gaseous materials",B
+Mining of uranium and thorium ores (12),B
+Mining of iron ores,B
+Mining of copper ores and concentrates,B
+Mining of nickel ores and concentrates,B
+Mining of aluminium ores and concentrates,B
+Mining of precious metal ores and concentrates,B
+"Mining of lead, zinc and tin ores and concentrates",B
+Mining of other non-ferrous metal ores and concentrates,B
+Quarrying of stone,B
+Quarrying of sand and clay,B
+"Mining of chemical and fertilizer minerals, production of salt, other mining and quarrying n.e.c.",B
+Processing of meat cattle,C
+Processing of meat pigs,C
+Processing of meat poultry,C
+Production of meat products nec,C
+Processing vegetable oils and fats,C
+Processing of dairy products,C
+Processed rice,C
+Sugar refining,C
+Processing of Food products nec,C
+Manufacture of beverages,C
+Manufacture of fish products,C
+Manufacture of tobacco products (16),C
+Manufacture of textiles (17),C
+Manufacture of wearing apparel; dressing and dyeing of fur (18),C
+"Tanning and dressing of leather; manufacture of luggage, handbags, saddlery, harness and footwear (19)",C
+"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials (20)",C
+Re-processing of secondary wood material into new wood material,E
+Pulp,C
+Re-processing of secondary paper into new pulp,E
+Paper,C
+"Publishing, printing and reproduction of recorded media (22)",J
+Manufacture of coke oven products,C
+Petroleum Refinery,C
+Processing of nuclear fuel,C
+"Plastics, basic",C
+Re-processing of secondary plastic into new plastic,E
+N-fertiliser,C
+P- and other fertiliser,C
+Chemicals nec,C
+Manufacture of rubber and plastic products (25),C
+Manufacture of glass and glass products,C
+Re-processing of secondary glass into new glass,E
+Manufacture of ceramic goods,C
+"Manufacture of bricks, tiles and construction products, in baked clay",C
+"Manufacture of cement, lime and plaster",C
+Re-processing of ash into clinker,E
+Manufacture of other non-metallic mineral products n.e.c.,C
+Manufacture of basic iron and steel and of ferro-alloys and first products thereof,C
+Re-processing of secondary steel into new steel,E
+Precious metals production,C
+Re-processing of secondary preciuos metals into new preciuos metals,E
+Aluminium production,C
+Re-processing of secondary aluminium into new aluminium,E
+"Lead, zinc and tin production",C
+"Re-processing of secondary lead into new lead, zinc and tin",E
+Copper production,C
+Re-processing of secondary copper into new copper,E
+Other non-ferrous metal production,C
+Re-processing of secondary other non-ferrous metals into new other non-ferrous metals,E
+Casting of metals,C
+"Manufacture of fabricated metal products, except machinery and equipment (28)",C
+Manufacture of machinery and equipment n.e.c. (29),S
+Manufacture of office machinery and computers (30),C
+Manufacture of electrical machinery and apparatus n.e.c. (31),C
+"Manufacture of radio, television and communication equipment and apparatus (32)",S
+"Manufacture of medical, precision and optical instruments, watches and clocks (33)",C
+"Manufacture of motor vehicles, trailers and semi-trailers (34)",C
+Manufacture of other transport equipment (35),C
+Manufacture of furniture; manufacturing n.e.c. (36),S
+Recycling of waste and scrap,E
+Recycling of bottles by direct reuse,E
+Production of electricity by coal,D
+Production of electricity by gas,D
+Production of electricity by nuclear,D
+Production of electricity by hydro,D
+Production of electricity by wind,D
+Production of electricity by petroleum and other oil derivatives,D
+Production of electricity by biomass and waste,D
+Production of electricity by solar photovoltaic,D
+Production of electricity by solar thermal,D
+"Production of electricity by tide, wave, ocean",D
+Production of electricity by Geothermal,D
+Production of electricity nec,D
+Transmission of electricity,D
+Distribution and trade of electricity,D
+Manufacture of gas; distribution of gaseous fuels through mains,D
+Steam and hot water supply,D
+"Collection, purification and distribution of water (41)",E
+Construction (45),F
+Re-processing of secondary construction material into aggregates,E
+"Sale, maintenance, repair of motor vehicles, motor vehicles parts, motorcycles, motor cycles parts and accessoiries",G
+Retail sale of automotive fuel,G
+"Wholesale trade and commission trade, except of motor vehicles and motorcycles (51)",G
+"Retail trade, except of motor vehicles and motorcycles; repair of personal and household goods (52)",S
+Hotels and restaurants (55),I
+Transport via railways,H
+Other land transport,H
+Transport via pipelines,H
+Sea and coastal water transport,H
+Inland water transport,H
+Air transport (62),H
+Supporting and auxiliary transport activities; activities of travel agencies (63),N
+Post and telecommunications (64),J
+"Financial intermediation, except insurance and pension funding (65)",K
+"Insurance and pension funding, except compulsory social security (66)",K
+Activities auxiliary to financial intermediation (67),K
+Real estate activities (70),L
+Renting of machinery and equipment without operator and of personal and household goods (71),N
+Computer and related activities (72),S
+Research and development (73),M
+Other business activities (74),P
+Public administration and defence; compulsory social security (75),O
+Education (80),P
+Health and social work (85),Q
+Incineration of waste: Food,E
+Incineration of waste: Paper,E
+Incineration of waste: Plastic,E
+Incineration of waste: Metals and Inert materials,E
+Incineration of waste: Textiles,E
+Incineration of waste: Wood,E
+Incineration of waste: Oil/Hazardous waste,E
+"Biogasification of food waste, incl. land application",E
+"Biogasification of paper, incl. land application",E
+"Biogasification of sewage slugde, incl. land application",E
+"Composting of food waste, incl. land application",E
+"Composting of paper and wood, incl. land application",E
+"Waste water treatment, food",E
+"Waste water treatment, other",E
+Landfill of waste: Food,E
+Landfill of waste: Paper,E
+Landfill of waste: Plastic,E
+Landfill of waste: Inert/metal/hazardous,E
+Landfill of waste: Textiles,E
+Landfill of waste: Wood,E
+Activities of membership organisation n.e.c. (91),S
+"Recreational, cultural and sporting activities (92)",R
+Other service activities (93),S
+Private households with employed persons (95),T
+Extra-territorial organizations and bodies,U

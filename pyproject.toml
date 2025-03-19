@@ -1,0 +1,14 @@
+[project]
+name = "banks_at_risk"
+version = "0.0.1"
+
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "geopandas", 
+    "geodatasets",
+    "pymrio",
+    "seaborn",
+    "scipy"
+]

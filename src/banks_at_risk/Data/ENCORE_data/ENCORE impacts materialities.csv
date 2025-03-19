@@ -1,0 +1,178 @@
+Sector,Sub-Industry,Production process,Disturbances,Freshwater ecosystem use,GHG emissions,Marine ecosystem use,Non-GHG air pollutants,Other resource use,Soil pollutants,Solid waste,Terrestrial ecosystem use,Water pollutants,Water use
+Industrials,Airlines,Airport services,H,NA,H,NA,H,NA,H,H,NA,H,H
+Industrials,Airport Services,Airport services,H,NA,H,NA,H,NA,H,H,NA,H,H
+Consumer Staples,Brewers,Alcoholic fermentation and distilling,NA,NA,H,NA,NA,M,H,H,NA,H,H
+Consumer Staples,Distillers & Vintners,Alcoholic fermentation and distilling,NA,NA,H,NA,NA,M,H,H,NA,H,H
+Materials,Aluminium,Alumina refining,NA,NA,H,NA,NA,NA,H,H,NA,H,VH
+Consumer Staples,Agricultural Products,Aquaculture,NA,VH,NA,H,NA,NA,H,NA,NA,H,NA
+Utilities,Renewable Electricity,Biomass energy production,NA,NA,H,NA,H,NA,NA,H,NA,H,H
+Consumer Discretionary,Cable & Satellite,Cable and satellite installations on land,H,L,NA,NA,NA,NA,NA,NA,L,NA,NA
+Telecommunication Services,Alternative Carriers,Cable and satellite installations on land,H,L,NA,NA,NA,NA,NA,NA,L,NA,NA
+Materials,Commodity Chemicals,"Catalytic cracking, fractional distillation and crystallization",NA,NA,H,NA,H,NA,H,H,H,H,H
+Materials,Industrial Gases,"Catalytic cracking, fractional distillation and crystallization",NA,NA,H,NA,H,NA,H,H,H,H,H
+Materials,Specialty Chemicals,"Catalytic cracking, fractional distillation and crystallization",NA,NA,H,NA,H,NA,H,H,H,H,H
+Consumer Discretionary,Homebuilding,Construction,H,H,H,NA,H,NA,M,H,VH,M,H
+Industrials,Highways & Rail tracks,Construction,H,H,H,NA,H,NA,M,H,VH,M,H
+Materials,Construction Materials,Construction materials production,H,H,H,H,M,NA,NA,H,VH,M,H
+Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Cruise line provision,NA,NA,H,M,L,NA,NA,M,NA,H,M
+Materials,Industrial Gases,Cryogenic air separation,H,NA,NA,NA,L,NA,M,NA,NA,M,H
+Consumer Discretionary,Distributors,Distribution,H,NA,H,M,H,NA,L,NA,NA,L,NA
+Consumer Staples,Food Distributors,Distribution,H,NA,H,M,H,NA,L,NA,NA,L,NA
+Health Care,Health Care Distributors,Distribution,H,NA,H,M,H,NA,L,NA,NA,L,NA
+Industrials,Air Freight & Logistics,Distribution,H,NA,H,M,H,NA,L,NA,NA,L,NA
+Industrials,Trading Companies & Distributors,Distribution,H,NA,H,M,H,NA,L,NA,NA,L,NA
+Information Technology,Technology Distributors,Distribution,H,NA,H,M,H,NA,L,NA,NA,L,NA
+Utilities,Electric Utilities,Electric/nuclear power transmission and distribution,NA,NA,H,NA,NA,NA,NA,NA,M,M,NA
+Utilities,Independent Power Producers & Energy Traders,Electric/nuclear power transmission and distribution,NA,NA,H,NA,NA,NA,NA,NA,M,M,NA
+Consumer Discretionary,Consumer Electronics,Electronics and hardware production,M,NA,NA,NA,NA,NA,H,M,NA,H,NA
+Industrials,Electrical Components & Equipment,Electronics and hardware production,M,NA,NA,NA,NA,NA,H,M,NA,H,NA
+Information Technology,Communications Equipment,Electronics and hardware production,M,NA,NA,NA,NA,NA,H,M,NA,H,NA
+Information Technology,Electronic Components,Electronics and hardware production,M,NA,NA,NA,NA,NA,H,M,NA,H,NA
+Information Technology,Electronic Equipment & Instruments,Electronics and hardware production,M,NA,NA,NA,NA,NA,H,M,NA,H,NA
+Information Technology,Electronic Manufacturing Services,Electronics and hardware production,M,NA,NA,NA,NA,NA,H,M,NA,H,NA
+Information Technology,"Technology Hardware, Storage & Peripherals",Electronics and hardware production,M,NA,NA,NA,NA,NA,H,M,NA,H,NA
+Industrials,Environmental & Facilities Services,Environmental and facilities services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Telecommunication Services,Alternative Carriers,Fibre-optic cable installation (marine),H,H,NA,H,NA,NA,NA,NA,NA,H,NA
+Financials,Asset Management & Custody Banks,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Consumer Finance,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Diversified Banks,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Diversified Capital Markets,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Financial Exchanges & Data,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Insurance Brokers,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Investment Banking & Brokerage,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Life & Health Insurance,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Multi-line Insurance,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Multi-Sector Holdings,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Other Diversified Financial Services,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Property & Casualty Insurance,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Regional Banks,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Reinsurance,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Specialized Finance,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Financials,Thrifts & Mortgage Finance,Financial services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Consumer Discretionary,Footwear,Footwear production,NA,NA,NA,NA,H,NA,M,M,NA,M,H
+Consumer Staples,Agricultural Products,Freshwater wild-caught fish,NA,VH,NA,NA,NA,H,NA,NA,NA,H,NA
+Materials,Industrial Gases,Gas adsorption,NA,NA,H,NA,NA,NA,NA,NA,NA,NA,NA
+Utilities,Gas Utilities,Gas distribution,NA,NA,H,H,NA,NA,NA,NA,H,NA,NA
+Utilities,Gas Utilities,Gas retail,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Utilities,Renewable Electricity,Geothermal energy production,H,NA,H,NA,NA,NA,H,NA,NA,H,VH
+Industrials,Building Products,Glass making,NA,NA,H,NA,H,NA,NA,L,NA,H,VH
+Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Hotels and resorts provision,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Consumer Discretionary,Housewares & Specialties,Houseware and specialities production,NA,NA,NA,NA,H,NA,M,M,NA,M,VH
+Utilities,Electric Utilities,Hydropower production,NA,VH,H,NA,NA,NA,H,NA,VH,H,VH
+Utilities,Independent Power Producers & Energy Traders,Hydropower production,NA,VH,H,NA,NA,NA,H,NA,VH,H,VH
+Utilities,Renewable Electricity,Hydropower production,NA,VH,H,NA,NA,NA,H,NA,VH,H,VH
+Materials,Diversified Chemicals,Incomplete combustion,NA,NA,H,NA,H,NA,NA,NA,H,NA,H
+Industrials,Construction & Engineering,Infrastructure builds,H,H,H,VH,H,NA,H,M,VH,M,H
+Consumer Discretionary,Advertising,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Discretionary,Apparel Retail,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Discretionary,Automotive Retail,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Discretionary,Broadcasting,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Discretionary,Computer & Electronics Retail,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Discretionary,Department Stores,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Discretionary,Education Services,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Discretionary,General Merchandise Stores,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Discretionary,Home Improvement Retail,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Discretionary,Home furnishing Retail,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Discretionary,Internet & Direct Marketing Retail,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Discretionary,Movies & Entertainment,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Discretionary,Publishing,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Discretionary,Specialty Stores,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Staples,Drug Retail,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Staples,Food Retail,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Consumer Staples,Hypermarkets & Super Centres,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Health Care,Health Care Services,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Health Care,Health Care Technology,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Industrials,Diversified Support Services,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Industrials,Human Resource & Employment Services,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Industrials,Research & Consulting Services,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Industrials,Security & Alarm Services,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Information Technology,IT Consulting & Other Services,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Information Technology,Office Services & Supplies,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Utilities,Electric Utilities,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Utilities,Independent Power Producers & Energy Traders,Infrastructure holdings,NA,NA,NA,NA,M,NA,H,M,NA,H,H
+Industrials,Construction & Engineering,Infrastructure maintenance contracts,NA,NA,H,NA,L,NA,L,NA,M,L,H
+Energy,Integrated Oil & Gas,Integrated oil and gas,H,VH,H,VH,H,NA,M,H,VH,M,VH
+Materials,Iron,Iron extraction,H,NA,H,NA,H,NA,NA,NA,VH,NA,VH
+Materials,Iron,Iron metal production,H,NA,H,NA,H,NA,NA,H,NA,M,VH
+Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Jewellery production,NA,NA,NA,NA,H,NA,M,M,NA,M,NA
+Materials,Forest Products,Large-scale forestry,NA,NA,H,NA,NA,NA,NA,NA,VH,H,NA
+Consumer Staples,Agricultural Products,Large-scale irrigated arable crops,NA,VH,NA,NA,NA,NA,H,NA,VH,H,VH
+Consumer Staples,Agricultural Products,Large-scale livestock (beef and dairy),NA,NA,H,NA,NA,NA,M,NA,VH,M,VH
+Consumer Staples,Agricultural Products,Large-scale rainfed arable crops,NA,NA,NA,NA,NA,L,H,NA,VH,H,NA
+Consumer Discretionary,Casinos & Gaming,Leisure facility provision,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Health Care,Biotechnology manufacturing,"Life science, pharma and biotech manufacture",NA,NA,NA,NA,M,NA,H,H,NA,H,H
+Health Care,Life Sciences manufacturing,"Life science, pharma and biotech manufacture",NA,NA,NA,NA,M,NA,H,H,NA,H,H
+Health Care,Pharmaceuticals manufacturing,"Life science, pharma and biotech manufacture",NA,NA,NA,NA,M,NA,H,H,NA,H,H
+Health Care,Biotechnology services,"Life science, pharma and biotech tools and services",NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Health Care,Life Sciences Tools services,"Life science, pharma and biotech tools and services",NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Health Care,Pharmaceuticals services,"Life science, pharma and biotech tools and services",NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Health Care,Managed Health Care,Managed health care,NA,NA,H,NA,NA,NA,M,NA,NA,M,NA
+Consumer Discretionary,Auto Parts & Equipment,"Manufacture of machinery, parts and equipment",M,NA,H,NA,M,NA,H,H,NA,H,H
+Consumer Discretionary,Automobile Manufacturers,"Manufacture of machinery, parts and equipment",M,NA,H,NA,M,NA,H,H,NA,H,H
+Consumer Discretionary,Home Furnishings,"Manufacture of machinery, parts and equipment",M,NA,H,NA,M,NA,H,H,NA,H,H
+Consumer Discretionary,Household Appliances,"Manufacture of machinery, parts and equipment",M,NA,H,NA,M,NA,H,H,NA,H,H
+Consumer Discretionary,Motorcycle Manufacturers,"Manufacture of machinery, parts and equipment",M,NA,H,NA,M,NA,H,H,NA,H,H
+Energy,Oil & Gas Equipment & Services,"Manufacture of machinery, parts and equipment",M,NA,H,NA,M,NA,H,H,NA,H,H
+Industrials,Aerospace & Defense,"Manufacture of machinery, parts and equipment",M,NA,H,NA,M,NA,H,H,NA,H,H
+Industrials,Agricultural & Farm Machinery,"Manufacture of machinery, parts and equipment",M,NA,H,NA,M,NA,H,H,NA,H,H
+Industrials,Construction Machinery & Heavy Trucks,"Manufacture of machinery, parts and equipment",M,NA,H,NA,M,NA,H,H,NA,H,H
+Industrials,Heavy Electrical Equipment,"Manufacture of machinery, parts and equipment",M,NA,H,NA,M,NA,H,H,NA,H,H
+Industrials,Industrial Machinery,"Manufacture of machinery, parts and equipment",M,NA,H,NA,M,NA,H,H,NA,H,H
+Industrials,Trucking,"Manufacture of machinery, parts and equipment",M,NA,H,NA,M,NA,H,H,NA,H,H
+Industrials,Marine Ports & Services,Marine ports and services,H,VH,H,VH,NA,NA,H,M,H,H,NA
+Industrials,Marine,Marine transportation,H,NA,H,H,NA,NA,H,NA,NA,H,NA
+Materials,Industrial Gases,Membrane technology,NA,NA,H,NA,NA,NA,NA,NA,NA,NA,NA
+Materials,Metal & Glass Containers,Metal processing,NA,NA,H,NA,M,NA,M,H,NA,M,H
+Energy,Coal & Consumable Fuels,Mining,H,H,H,NA,H,NA,H,H,VH,H,VH
+Materials,Aluminium,Mining,H,H,H,NA,H,NA,H,H,VH,H,VH
+Materials,Copper,Mining,H,H,H,NA,H,NA,H,H,VH,H,VH
+Materials,Diversified Metals & Mining,Mining,H,H,H,NA,H,NA,H,H,VH,H,VH
+Materials,Gold,Mining,H,H,H,NA,H,NA,H,H,VH,H,VH
+Materials,Precious Metals & Minerals,Mining,H,H,H,NA,H,NA,H,H,VH,H,VH
+Materials,Silver,Mining,H,H,H,NA,H,NA,H,H,VH,H,VH
+Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Natural fibre production,NA,NA,NA,NA,H,NA,M,M,H,M,VH
+Consumer Discretionary,Textiles,Natural fibre production,NA,NA,NA,NA,H,NA,M,M,H,M,VH
+Materials,Industrial Gases,Natural gas combustion,NA,NA,H,NA,H,NA,H,NA,H,H,VH
+Utilities,Electric Utilities,Nuclear and thermal power stations,H,H,H,NA,H,NA,M,H,NA,M,VH
+Utilities,Independent Power Producers & Energy Traders,Nuclear and thermal power stations,H,H,H,NA,H,NA,M,H,NA,M,VH
+Energy,Oil & Gas Drilling,Oil and gas drilling,H,H,H,VH,H,NA,H,H,H,H,VH
+Energy,Oil & Gas Exploration & Production,Oil and gas exploration surveys,H,H,H,M,H,NA,H,H,H,H,VH
+Energy,Oil & Gas Refining & Marketing,Oil and gas refining,NA,NA,H,NA,H,NA,L,NA,NA,L,VH
+Energy,Oil & Gas Equipment & Services,Oil and gas services,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Energy,Oil & Gas Storage & Transportation,Oil and gas storage,NA,NA,NA,NA,NA,NA,L,NA,H,L,NA
+Energy,Oil & Gas Storage & Transportation,Oil and gas transportation,NA,H,H,H,NA,NA,L,NA,H,L,H
+Materials,Paper Packaging,Paper packaging production,NA,NA,NA,NA,M,NA,H,NA,NA,H,VH
+Materials,Diversified Chemicals,Polymerization,NA,NA,NA,NA,M,NA,H,NA,H,H,VH
+Consumer Staples,Packaged Foods & Meats,Processed food and drink production,NA,NA,H,NA,NA,NA,M,H,NA,M,H
+Consumer Staples,Soft Drinks,Processed food and drink production,NA,NA,H,NA,NA,NA,M,H,NA,M,H
+Materials,Forest Products,Production of forest and wood-based products,NA,NA,H,NA,NA,NA,H,NA,H,H,NA
+Consumer Discretionary,Leisure Products,Production of leisure or personal products,NA,NA,H,NA,M,NA,M,H,NA,M,H
+Consumer Staples,Personal Products,Production of leisure or personal products,NA,NA,H,NA,M,NA,M,H,NA,M,H
+Materials,Paper Products,Production of paper products,NA,NA,NA,NA,M,NA,H,NA,NA,H,VH
+Health Care,Health Care Facilities,Provision of health care,NA,NA,H,NA,NA,NA,M,M,NA,M,NA
+Industrials,Railroads,Railway transportation,H,NA,H,NA,H,NA,L,NA,NA,L,NA
+Real Estate,Diversified Real Estate Activities,Real estate activities,NA,NA,H,NA,M,NA,M,H,VH,M,NA
+Real Estate,Real Estate Development,Real estate activities,NA,NA,H,NA,M,NA,M,H,VH,M,NA
+Real Estate,Real Estate Operating Companies,Real estate activities,NA,NA,H,NA,M,NA,M,H,VH,M,NA
+Real Estate,Real Estate Services,Real estate activities,NA,NA,H,NA,M,NA,M,H,VH,M,NA
+Materials,Industrial Gases,Recovery and separation of carbon dioxide,H,NA,H,NA,M,NA,L,M,NA,L,NA
+Consumer Discretionary,Restaurants,Restaurant provision,NA,NA,NA,NA,NA,NA,NA,M,NA,NA,NA
+Consumer Staples,Agricultural Products,Saltwater wild-caught fish,NA,NA,NA,VH,NA,H,NA,NA,NA,M,NA
+Information Technology,Semiconductor Equipment,Manufacture of semiconductor equipment,NA,NA,H,NA,NA,NA,H,NA,NA,H,H
+Materials,Forest Products,Small-scale forestry,NA,NA,H,NA,NA,NA,M,NA,VH,M,NA
+Consumer Staples,Agricultural Products,Small-scale irrigated arable crops,NA,H,NA,NA,NA,NA,M,NA,VH,M,H
+Consumer Staples,Agricultural Products,Small-scale livestock (beef and dairy),NA,NA,H,NA,NA,NA,M,NA,VH,M,H
+Consumer Staples,Agricultural Products,Small-scale rainfed arable crops,NA,NA,NA,NA,NA,L,M,NA,VH,M,NA
+Utilities,Renewable Electricity,Solar energy provision,NA,NA,NA,NA,NA,NA,L,NA,VH,L,VH
+Materials,Specialty Chemicals,Solids processing,NA,NA,H,NA,M,NA,H,NA,NA,H,NA
+Materials,Steel,Steel production,NA,NA,H,NA,NA,NA,NA,H,NA,NA,H
+Materials,Fertilizers & Agricultural Chemicals,Synthetic fertilizer production,NA,NA,NA,NA,H,NA,H,NA,NA,L,H
+Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Synthetic fibre production,NA,NA,NA,NA,H,NA,M,H,NA,M,H
+Consumer Discretionary,Textiles,Synthetic fibre production,NA,NA,NA,NA,H,NA,M,H,NA,M,H
+Telecommunication Services,Integrated Telecommunication Services,Telecommunication and wireless services,NA,NA,NA,NA,NA,NA,L,M,H,L,NA
+Telecommunication Services,Wireless Telecommunication Services,Telecommunication and wireless services,NA,NA,NA,NA,NA,NA,L,M,H,L,NA
+Consumer Staples,Tobacco,Tobacco production,NA,NA,H,NA,NA,L,H,NA,VH,H,H
+Consumer Discretionary,Tires & Rubber,Tyre and rubber production,H,NA,H,NA,M,NA,M,H,NA,M,H
+Materials,Diversified Chemicals,Vulcanisation,NA,NA,H,NA,H,NA,L,H,NA,L,H
+Utilities,Water Utilities,"Water services (e.g. waste water, treatment and distribution)",NA,H,NA,NA,NA,NA,L,NA,H,L,H
+Utilities,Renewable Electricity,Wind energy provision,M,M,NA,H,NA,NA,L,NA,H,L,NA

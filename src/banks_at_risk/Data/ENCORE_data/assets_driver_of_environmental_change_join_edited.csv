@@ -1,0 +1,347 @@
+Ecosystem service,Asset,Driver,Influence
+Animal-based energy,Species,Diseases,R
+Animal-based energy,Species,Droughts,A
+Bio-remediation,Habitats,Habitat modification,R
+Bio-remediation,Species,Habitat modification,R
+Bio-remediation,Species,Invasive species,A
+Bio-remediation,Habitats,Pollution,A
+Bio-remediation,Species,Pollution,A
+Bio-remediation,Species,Weather conditions,A
+Buffering and attenuation of mass flows,Habitats,Droughts,R
+Buffering and attenuation of mass flows,Soils and sediments,Droughts,A
+Buffering and attenuation of mass flows,Habitats,Flooding,R
+Buffering and attenuation of mass flows,Land geomorphology,Flooding,R
+Buffering and attenuation of mass flows,Soils and sediments,Flooding,A
+Buffering and attenuation of mass flows,Habitats,Habitat modification,R
+Buffering and attenuation of mass flows,Habitats,Habitat modification,R
+Buffering and attenuation of mass flows,Land geomorphology,Habitat modification,A
+Buffering and attenuation of mass flows,Soils and sediments,Habitat modification,A
+Buffering and attenuation of mass flows,Soils and sediments,Habitat modification,A
+Buffering and attenuation of mass flows,Habitats,Industrial or domestic activities,A
+Buffering and attenuation of mass flows,Land geomorphology,Industrial or domestic activities,A
+Buffering and attenuation of mass flows,Soils and sediments,Industrial or domestic activities,A
+Buffering and attenuation of mass flows,Soils and sediments,Intensive agriculture and aquaculture,A
+Buffering and attenuation of mass flows,Soils and sediments,Intensive agriculture and aquaculture,A
+Buffering and attenuation of mass flows,Habitats,Landslides,R
+Buffering and attenuation of mass flows,Land geomorphology,Landslides,A
+Buffering and attenuation of mass flows,Soils and sediments,Landslides,A
+Buffering and attenuation of mass flows,Habitats,Storms,R
+Buffering and attenuation of mass flows,Soils and sediments,Storms,A
+Buffering and attenuation of mass flows,Habitats,Weather conditions,R
+Buffering and attenuation of mass flows,Habitats,Weather conditions,R
+Buffering and attenuation of mass flows,Soils and sediments,Weather conditions,A
+Buffering and attenuation of mass flows,Soils and sediments,Weather conditions,A
+Climate regulation,Atmosphere,Habitat modification,R
+Climate regulation,Habitats,Habitat modification,R
+Climate regulation,Habitats,Habitat modification,R
+Climate regulation,Habitats,Habitat modification,R
+Climate regulation,Habitats,Habitat modification,R
+Climate regulation,Soils and sediments,Habitat modification,A
+Climate regulation,Soils and sediments,Habitat modification,A
+Climate regulation,Species,Habitat modification,R
+Climate regulation,Species,Habitat modification,R
+Climate regulation,Water,Habitat modification,R
+Climate regulation,Water,Habitat modification,R
+Climate regulation,Habitats,Industrial or domestic activities,A
+Climate regulation,Habitats,Industrial or domestic activities,A
+Climate regulation,Soils and sediments,Industrial or domestic activities,A
+Climate regulation,Soils and sediments,Industrial or domestic activities,A
+Climate regulation,Water,Industrial or domestic activities,R
+Climate regulation,Atmosphere,Industrial or domestic construction,A
+Climate regulation,Habitats,Industrial or domestic construction,A
+Climate regulation,Water,Industrial or domestic construction,R
+Climate regulation,Habitats,Ocean current and circulation,R
+Climate regulation,Habitats,Ocean current and circulation,R
+Climate regulation,Water,Ocean current and circulation,G
+Climate regulation,Water,Ocean current and circulation,G
+Climate regulation,Soils and sediments,Overharvesting,A
+Climate regulation,Soils and sediments,Overharvesting,A
+Climate regulation,Species,Overharvesting,A
+Climate regulation,Species,Overharvesting,A
+Climate regulation,Habitats,Sea level rise,R
+Climate regulation,Water,Sea level rise,A
+Climate regulation,Habitats,Sea surface temperature,A
+Climate regulation,Soils and sediments,Sea surface temperature,A
+Climate regulation,Species,Sea surface temperature,R
+Climate regulation,Water,Sea surface temperature,R
+Climate regulation,Atmosphere,Weather conditions,R
+Climate regulation,Habitats,Weather conditions,R
+Climate regulation,Habitats,Weather conditions,R
+Climate regulation,Soils and sediments,Weather conditions,A
+Climate regulation,Species,Weather conditions,A
+Climate regulation,Water,Weather conditions,R
+Dilution by atmosphere and ecosystems,Water,Droughts,R
+Dilution by atmosphere and ecosystems,Atmosphere,Human movement,R
+Dilution by atmosphere and ecosystems,Atmosphere,Industrial or domestic activities,R
+Dilution by atmosphere and ecosystems,Ocean geomorphology,Industrial or domestic activities,A
+Dilution by atmosphere and ecosystems,Water,Industrial or domestic activities,R
+Dilution by atmosphere and ecosystems,Water,Industrial or domestic construction,R
+Dilution by atmosphere and ecosystems,Water,Ocean current and circulation,G
+Dilution by atmosphere and ecosystems,Water,Pollution,R
+Dilution by atmosphere and ecosystems,Water,Storms,R
+Dilution by atmosphere and ecosystems,Water,Water abstraction,R
+Dilution by atmosphere and ecosystems,Atmosphere,Weather conditions,R
+Dilution by atmosphere and ecosystems,Water,Weather conditions,R
+Disease control,Habitats,Habitat modification,R
+Disease control,Habitats,Habitat modification,R
+Disease control,Species,Habitat modification,R
+Disease control,Species,Intensive agriculture and aquaculture,R
+Disease control,Species,Population changes,A
+Disease control,Habitats,Weather conditions,R
+Disease control,Species,Weather conditions,A
+Fibres and other materials,Species,Diseases,R
+Fibres and other materials,Species,Diseases,R
+Fibres and other materials,Species,Diseases,R
+Fibres and other materials,Habitats,Droughts,R
+Fibres and other materials,Habitats,Droughts,R
+Fibres and other materials,Species,Droughts,A
+Fibres and other materials,Species,Droughts,A
+Fibres and other materials,Habitats,Fire,R
+Fibres and other materials,Habitats,Flooding,R
+Fibres and other materials,Habitats,Flooding,R
+Fibres and other materials,Species,Flooding,A
+Fibres and other materials,Species,Flooding,A
+Fibres and other materials,Habitats,Habitat modification,R
+Fibres and other materials,Habitats,Habitat modification,R
+Fibres and other materials,Habitats,Habitat modification,R
+Fibres and other materials,Habitats,Habitat modification,R
+Fibres and other materials,Habitats,Habitat modification,R
+Fibres and other materials,Species,Habitat modification,R
+Fibres and other materials,Species,Habitat modification,R
+Fibres and other materials,Species,Habitat modification,R
+Fibres and other materials,Species,Habitat modification,R
+Fibres and other materials,Species,Habitat modification,R
+Fibres and other materials,Species,Human modification of genetic material,R
+Fibres and other materials,Species,Intensive agriculture and aquaculture,R
+Fibres and other materials,Species,Intensive agriculture and aquaculture,R
+Fibres and other materials,Species,Invasive species,A
+Fibres and other materials,Species,Invasive species,A
+Fibres and other materials,Species,Overfishing,A
+Fibres and other materials,Species,Overharvesting,A
+Fibres and other materials,Species,Overharvesting,A
+Fibres and other materials,Species,Pests,A
+Fibres and other materials,Species,Pests,A
+Fibres and other materials,Habitats,Pollution,A
+Fibres and other materials,Species,Pollution,A
+Fibres and other materials,Species,Population changes,A
+Fibres and other materials,Habitats,Sea surface temperature,A
+Fibres and other materials,Species,Sea surface temperature,R
+Fibres and other materials,Habitats,Storms,R
+Fibres and other materials,Habitats,Storms,R
+Fibres and other materials,Species,Storms,A
+Fibres and other materials,Species,Storms,A
+Fibres and other materials,Habitats,Weather conditions,R
+Fibres and other materials,Habitats,Weather conditions,R
+Fibres and other materials,Habitats,Weather conditions,R
+Fibres and other materials,Species,Weather conditions,A
+Fibres and other materials,Species,Weather conditions,A
+Fibres and other materials,Species,Weather conditions,A
+Filtration,Habitats,Habitat modification,R
+Filtration,Species,Habitat modification,R
+Filtration,Habitats,Pollution,A
+Filtration,Species,Pollution,A
+Filtration,Species,Pollution,A
+Filtration,Species,Pollution,A
+Filtration,Species,Pollution,A
+Filtration,Habitats,Weather conditions,R
+Filtration,Species,Weather conditions,A
+Flood and storm protection,Habitats,Flooding,R
+Flood and storm protection,Habitats,Habitat modification,R
+Flood and storm protection,Habitats,Industrial or domestic activities,A
+Flood and storm protection,Habitats,Ocean acidification,R
+Flood and storm protection,Habitats,Sea level rise,R
+Flood and storm protection,Habitats,Storms,R
+Flood and storm protection,Habitats,Weather conditions,R
+Genetic materials,Species,Human modification of genetic material,R
+Genetic materials,Species,Human modification of genetic material,R
+Ground water,Water,Habitat modification,R
+Ground water,Water,Pollution,R
+Ground water,Water,Sea level rise,A
+Ground water,Water,Water abstraction,R
+Ground water,Water,Weather conditions,R
+Ground water,Water,Weather conditions,R
+Maintain nursery habitats,Habitats,Habitat modification,R
+Maintain nursery habitats,Species,Habitat modification,R
+Maintain nursery habitats,Water,Habitat modification,R
+Maintain nursery habitats,Habitats,Industrial or domestic activities,A
+Maintain nursery habitats,Water,Industrial or domestic activities,R
+Maintain nursery habitats,Species,Intensive agriculture and aquaculture,R
+Maintain nursery habitats,Water,Intensive agriculture and aquaculture,R
+Maintain nursery habitats,Species,Invasive species,A
+Maintain nursery habitats,Water,Invasive species,R
+Maintain nursery habitats,Habitats,Ocean acidification,R
+Maintain nursery habitats,Species,Ocean acidification,R
+Maintain nursery habitats,Water,Ocean acidification,R
+Maintain nursery habitats,Habitats,Ocean current and circulation,R
+Maintain nursery habitats,Water,Ocean current and circulation,G
+Maintain nursery habitats,Species,Overfishing,A
+Maintain nursery habitats,Habitats,Pollution,A
+Maintain nursery habitats,Species,Pollution,A
+Maintain nursery habitats,Water,Pollution,R
+Maintain nursery habitats,Habitats,Sea level rise,R
+Maintain nursery habitats,Water,Sea level rise,A
+Maintain nursery habitats,Habitats,Storms,R
+Maintain nursery habitats,Species,Storms,A
+Maintain nursery habitats,Water,Storms,R
+Mass stabilisation and erosion control,Habitats,Droughts,R
+Mass stabilisation and erosion control,Soils and sediments,Droughts,A
+Mass stabilisation and erosion control,Habitats,Fire,R
+Mass stabilisation and erosion control,Soils and sediments,Fire,A
+Mass stabilisation and erosion control,Habitats,Flooding,R
+Mass stabilisation and erosion control,Land geomorphology,Flooding,R
+Mass stabilisation and erosion control,Soils and sediments,Flooding,A
+Mass stabilisation and erosion control,Land geomorphology,Habitat modification,A
+Mass stabilisation and erosion control,Habitats,Industrial or domestic activities,A
+Mass stabilisation and erosion control,Land geomorphology,Industrial or domestic activities,A
+Mass stabilisation and erosion control,Soils and sediments,Industrial or domestic activities,A
+Mass stabilisation and erosion control,Habitats,Landslides,R
+Mass stabilisation and erosion control,Land geomorphology,Landslides,A
+Mass stabilisation and erosion control,Soils and sediments,Landslides,A
+Mass stabilisation and erosion control,Habitats,Ocean acidification,R
+Mass stabilisation and erosion control,Habitats,Storms,R
+Mass stabilisation and erosion control,Soils and sediments,Storms,A
+Mediation of sensory impacts,Atmosphere,Habitat modification,R
+Mediation of sensory impacts,Habitats,Habitat modification,R
+Mediation of sensory impacts,Habitats,Habitat modification,R
+Mediation of sensory impacts,Species,Habitat modification,R
+Mediation of sensory impacts,Species,Habitat modification,R
+Mediation of sensory impacts,Water,Habitat modification,R
+Mediation of sensory impacts,Atmosphere,Pollution,R
+Mediation of sensory impacts,Habitats,Pollution,A
+Mediation of sensory impacts,Species,Pollution,A
+Mediation of sensory impacts,Water,Pollution,R
+Mediation of sensory impacts,Atmosphere,Weather conditions,R
+Mediation of sensory impacts,Habitats,Weather conditions,R
+Mediation of sensory impacts,Species,Weather conditions,A
+Mediation of sensory impacts,Water,Weather conditions,R
+Pest control,Habitats,Habitat modification,R
+Pest control,Species,Habitat modification,R
+Pest control,Species,Intensive agriculture and aquaculture,R
+Pest control,Species,Overhunting,A
+Pest control,Species,Population changes,A
+Pollination,Species,Diseases,R
+Pollination,Species,Droughts,A
+Pollination,Water,Droughts,R
+Pollination,Species,Flooding,A
+Pollination,Water,Flooding,R
+Pollination,Atmosphere,Habitat modification,R
+Pollination,Atmosphere,Habitat modification,R
+Pollination,Species,Habitat modification,R
+Pollination,Species,Habitat modification,R
+Pollination,Water,Habitat modification,R
+Pollination,Water,Habitat modification,R
+Pollination,Species,Human modification of genetic material,R
+Pollination,Species,Intensive agriculture and aquaculture,R
+Pollination,Species,Intensive agriculture and aquaculture,R
+Pollination,Water,Intensive agriculture and aquaculture,R
+Pollination,Species,Invasive species,A
+Pollination,Species,Invasive species,A
+Pollination,Water,Invasive species,R
+Pollination,Water,Invasive species,R
+Pollination,Species,Overfishing,A
+Pollination,Species,Overharvesting,A
+Pollination,Species,Overhunting,A
+Pollination,Species,Pests,A
+Pollination,Atmosphere,Pollution,R
+Pollination,Species,Pollution,A
+Pollination,Water,Pollution,R
+Pollination,Species,Population changes,A
+Pollination,Species,Population changes,A
+Pollination,Species,Storms,A
+Pollination,Water,Storms,R
+Pollination,Atmosphere,Weather conditions,R
+Pollination,Atmosphere,Weather conditions,R
+Pollination,Species,Weather conditions,A
+Pollination,Species,Weather conditions,A
+Pollination,Water,Weather conditions,R
+Pollination,Water,Weather conditions,R
+Soil quality,Habitats,Droughts,R
+Soil quality,Soils and sediments,Droughts,A
+Soil quality,Species,Droughts,A
+Soil quality,Water,Droughts,R
+Soil quality,Land geomorphology,Earthquakes,A
+Soil quality,Species,Earthquakes,A
+Soil quality,Land geomorphology,Flooding,R
+Soil quality,Soils and sediments,Flooding,A
+Soil quality,Species,Flooding,A
+Soil quality,Water,Flooding,R
+Soil quality,Atmosphere,Habitat modification,R
+Soil quality,Land geomorphology,Habitat modification,A
+Soil quality,Minerals,Habitat modification,R
+Soil quality,Minerals,Habitat modification,R
+Soil quality,Soils and sediments,Habitat modification,A
+Soil quality,Soils and sediments,Habitat modification,A
+Soil quality,Species,Habitat modification,R
+Soil quality,Water,Habitat modification,R
+Soil quality,Water,Habitat modification,R
+Soil quality,Soils and sediments,Intensive agriculture and aquaculture,A
+Soil quality,Species,Intensive agriculture and aquaculture,R
+Soil quality,Water,Intensive agriculture and aquaculture,R
+Soil quality,Atmosphere,Pollution,R
+Soil quality,Habitats,Pollution,A
+Soil quality,Soils and sediments,Pollution,A
+Soil quality,Soils and sediments,Pollution,A
+Soil quality,Species,Pollution,A
+Soil quality,Species,Pollution,A
+Soil quality,Water,Pollution,R
+Soil quality,Water,Pollution,R
+Soil quality,Land geomorphology,Volcanoes,A
+Soil quality,Minerals,Volcanoes,R
+Soil quality,Soils and sediments,Volcanoes,R
+Soil quality,Species,Volcanoes,A
+Soil quality,Atmosphere,Weather conditions,R
+Soil quality,Habitats,Weather conditions,R
+Soil quality,Soils and sediments,Weather conditions,A
+Soil quality,Soils and sediments,Weather conditions,A
+Soil quality,Species,Weather conditions,A
+Soil quality,Species,Weather conditions,A
+Soil quality,Water,Weather conditions,R
+Soil quality,Water,Weather conditions,R
+Surface water,Water,Droughts,R
+Surface water,Water,Habitat modification,R
+Surface water,Water,Habitat modification,R
+Surface water,Water,Industrial or domestic activities,R
+Surface water,Water,Landslides,R
+Surface water,Water,Weather conditions,R
+Ventilation,Species,Habitat modification,R
+Ventilation,Species,Population changes,A
+Ventilation,Species,Weather conditions,A
+Water flow maintenance,Atmosphere,Habitat modification,R
+Water flow maintenance,Habitats,Habitat modification,R
+Water flow maintenance,Water,Habitat modification,R
+Water flow maintenance,Habitats,Landslides,R
+Water flow maintenance,Water,Landslides,R
+Water flow maintenance,Atmosphere,Pollution,R
+Water flow maintenance,Habitats,Pollution,A
+Water flow maintenance,Water,Pollution,R
+Water flow maintenance,Water,Pollution,R
+Water flow maintenance,Water,Water abstraction,R
+Water flow maintenance,Atmosphere,Weather conditions,R
+Water flow maintenance,Atmosphere,Weather conditions,R
+Water flow maintenance,Habitats,Weather conditions,R
+Water flow maintenance,Habitats,Weather conditions,R
+Water flow maintenance,Water,Weather conditions,R
+Water flow maintenance,Water,Weather conditions,R
+Water quality,Species,Droughts,A
+Water quality,Water,Droughts,R
+Water quality,Species,Invasive species,A
+Water quality,Species,Invasive species,A
+Water quality,Water,Invasive species,R
+Water quality,Water,Invasive species,R
+Water quality,Species,Ocean acidification,R
+Water quality,Water,Ocean acidification,R
+Water quality,Water,Ocean current and circulation,G
+Water quality,Species,Pollution,A
+Water quality,Species,Pollution,A
+Water quality,Species,Pollution,A
+Water quality,Water,Pollution,R
+Water quality,Water,Pollution,R
+Water quality,Water,Pollution,R
+Water quality,Species,Storms,A
+Water quality,Water,Storms,R
+Water quality,Species,Weather conditions,A
+Water quality,Species,Weather conditions,A
+Water quality,Species,Weather conditions,A
+Water quality,Water,Weather conditions,R
+Water quality,Water,Weather conditions,R
+Water quality,Water,Weather conditions,R

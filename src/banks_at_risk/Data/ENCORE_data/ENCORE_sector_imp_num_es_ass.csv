@@ -1,0 +1,53 @@
+Ecosystem Service,Asset,Materiality
+Climate regulation,Atmosphere,1.0
+Dilution by atmosphere and ecosystems,Atmosphere,1.0
+Mediation of sensory impacts,Atmosphere,0.666667
+Pollination,Atmosphere,1.0
+Soil quality,Atmosphere,1.0
+Water flow maintenance,Atmosphere,1.0
+Bio-remediation,Habitats,0.666667
+Buffering and attenuation of mass flows,Habitats,1.0
+Climate regulation,Habitats,1.0
+Disease control,Habitats,0.666667
+Fibres and other materials,Habitats,0.666667
+Filtration,Habitats,1.0
+Flood and storm protection,Habitats,1.0
+Maintain nursery habitats,Habitats,1.0
+Mass stabilisation and erosion control,Habitats,0.666667
+Mediation of sensory impacts,Habitats,1.0
+Pest control,Habitats,0.666667
+Soil quality,Habitats,1.0
+Water flow maintenance,Habitats,0.666667
+Buffering and attenuation of mass flows,Land geomorphology,1.0
+Mass stabilisation and erosion control,Land geomorphology,0.666667
+Soil quality,Land geomorphology,1.0
+Soil quality,Minerals,1.0
+Dilution by atmosphere and ecosystems,Ocean geomorphology,0.666667
+Buffering and attenuation of mass flows,Soils and sediments,0.666667
+Climate regulation,Soils and sediments,0.666667
+Mass stabilisation and erosion control,Soils and sediments,0.666667
+Soil quality,Soils and sediments,1.0
+Animal-based energy,Species,1.0
+Bio-remediation,Species,1.0
+Climate regulation,Species,0.666667
+Disease control,Species,1.0
+Fibres and other materials,Species,1.0
+Filtration,Species,1.0
+Genetic materials,Species,1.0
+Maintain nursery habitats,Species,1.0
+Mediation of sensory impacts,Species,1.0
+Pest control,Species,1.0
+Pollination,Species,1.0
+Soil quality,Species,0.666667
+Ventilation,Species,1.0
+Water quality,Species,0.666667
+Climate regulation,Water,1.0
+Dilution by atmosphere and ecosystems,Water,0.666667
+Ground water,Water,0.666667
+Maintain nursery habitats,Water,0.666667
+Mediation of sensory impacts,Water,0.3333333
+Pollination,Water,0.666667
+Soil quality,Water,0.666667
+Surface water,Water,0.666667
+Water flow maintenance,Water,0.666667
+Water quality,Water,0.666667

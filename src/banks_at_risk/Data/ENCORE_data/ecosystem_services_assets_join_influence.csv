@@ -1,0 +1,53 @@
+Ecosystem Service,Asset,Materiality
+Climate regulation,Atmosphere,H
+Dilution by atmosphere and ecosystems,Atmosphere,H
+Mediation of sensory impacts,Atmosphere,M
+Pollination,Atmosphere,H
+Soil quality,Atmosphere,H
+Water flow maintenance,Atmosphere,H
+Bio-remediation,Habitats,M
+Buffering and attenuation of mass flows,Habitats,H
+Climate regulation,Habitats,H
+Disease control,Habitats,M
+Fibres and other materials,Habitats,M
+Filtration,Habitats,H
+Flood and storm protection,Habitats,H
+Maintain nursery habitats,Habitats,H
+Mass stabilisation and erosion control,Habitats,M
+Mediation of sensory impacts,Habitats,H
+Pest control,Habitats,M
+Soil quality,Habitats,H
+Water flow maintenance,Habitats,M
+Buffering and attenuation of mass flows,Land geomorphology,H
+Mass stabilisation and erosion control,Land geomorphology,M
+Soil quality,Land geomorphology,H
+Soil quality,Minerals,H
+Dilution by atmosphere and ecosystems,Ocean geomorphology,M
+Buffering and attenuation of mass flows,Soils and sediments,M
+Climate regulation,Soils and sediments,M
+Mass stabilisation and erosion control,Soils and sediments,M
+Soil quality,Soils and sediments,H
+Animal-based energy,Species,H
+Bio-remediation,Species,H
+Climate regulation,Species,M
+Disease control,Species,H
+Fibres and other materials,Species,H
+Filtration,Species,H
+Genetic materials,Species,H
+Maintain nursery habitats,Species,H
+Mediation of sensory impacts,Species,H
+Pest control,Species,H
+Pollination,Species,H
+Soil quality,Species,M
+Ventilation,Species,H
+Water quality,Species,M
+Climate regulation,Water,H
+Dilution by atmosphere and ecosystems,Water,M
+Ground water,Water,M
+Maintain nursery habitats,Water,M
+Mediation of sensory impacts,Water,L
+Pollination,Water,M
+Soil quality,Water,M
+Surface water,Water,M
+Water flow maintenance,Water,M
+Water quality,Water,M

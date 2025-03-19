@@ -1,0 +1,26 @@
+﻿Geography,exiobase_region,multiplier
+Australia,AU,1
+Canada,CA,1
+Denmark,DK,1
+Finland,FI,1
+France,FR,1
+Germany,DE,1
+Guernsey,GB,1
+Hong Kong,WA,1
+Ireland,IE,1
+Japan,JP,1
+Jersey,GB,1
+Korea,KR,1
+Luxembourg,LU,1
+Netherlands,NL,1
+Norway,NO,1
+Other Countries,WL,0.2
+Other Countries,WM,0.2
+Other Countries,WE,0.2
+Other Countries,WA,0.2
+Other Countries,WF,0.2
+Other Western Europe,WE,1
+Singapore,WA,1
+Sweden,SE,1
+United Kingdom,GB,1
+United States,US,1

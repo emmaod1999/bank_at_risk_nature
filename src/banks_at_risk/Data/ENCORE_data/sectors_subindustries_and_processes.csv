@@ -1,0 +1,178 @@
+Sector,Subindustry,Process
+Industrials,Airlines,Airport services
+Industrials,Airport Services,Airport services
+Consumer Staples,Brewers,Alcoholic fermentation and distilling
+Consumer Staples,Distillers & Vintners,Alcoholic fermentation and distilling
+Materials,Aluminium,Alumina refining
+Consumer Staples,Agricultural Products,Aquaculture
+Utilities,Renewable Electricity,Biomass energy production
+Consumer Discretionary,Cable & Satellite,Cable and satellite installations on land
+Telecommunication Services,Alternative Carriers,Cable and satellite installations on land
+Materials,Commodity Chemicals,"Catalytic cracking, fractional distillation and crystallization"
+Materials,Industrial Gases,"Catalytic cracking, fractional distillation and crystallization"
+Materials,Specialty Chemicals,"Catalytic cracking, fractional distillation and crystallization"
+Consumer Discretionary,Homebuilding,Construction
+Industrials,Highways & Rail tracks,Construction
+Materials,Construction Materials,Construction materials production
+Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Cruise line provision
+Materials,Industrial Gases,Cryogenic air separation
+Consumer Discretionary,Distributors,Distribution
+Consumer Staples,Food Distributors,Distribution
+Health Care,Health Care Distributors,Distribution
+Industrials,Air Freight & Logistics,Distribution
+Industrials,Trading Companies & Distributors,Distribution
+Information Technology,Technology Distributors,Distribution
+Utilities,Electric Utilities,Electric/nuclear power transmission and distribution
+Utilities,Independent Power Producers & Energy Traders,Electric/nuclear power transmission and distribution
+Consumer Discretionary,Consumer Electronics,Electronics and hardware production
+Industrials,Electrical Components & Equipment,Electronics and hardware production
+Information Technology,Communications Equipment,Electronics and hardware production
+Information Technology,Electronic Components,Electronics and hardware production
+Information Technology,Electronic Equipment & Instruments,Electronics and hardware production
+Information Technology,Electronic Manufacturing Services,Electronics and hardware production
+Information Technology,"Technology Hardware, Storage & Peripherals",Electronics and hardware production
+Industrials,Environmental & Facilities Services,Environmental and facilities services
+Telecommunication Services,Alternative Carriers,Fibre-optic cable installation (marine)
+Financials,Asset Management & Custody Banks,Financial services
+Financials,Consumer Finance,Financial services
+Financials,Diversified Banks,Financial services
+Financials,Diversified Capital Markets,Financial services
+Financials,Financial Exchanges & Data,Financial services
+Financials,Insurance Brokers,Financial services
+Financials,Investment Banking & Brokerage,Financial services
+Financials,Life & Health Insurance,Financial services
+Financials,Multi-line Insurance,Financial services
+Financials,Multi-Sector Holdings,Financial services
+Financials,Other Diversified Financial Services,Financial services
+Financials,Property & Casualty Insurance,Financial services
+Financials,Regional Banks,Financial services
+Financials,Reinsurance,Financial services
+Financials,Specialized Finance,Financial services
+Financials,Thrifts & Mortgage Finance,Financial services
+Consumer Discretionary,Footwear,Footwear production
+Consumer Staples,Agricultural Products,Freshwater wild-caught fish
+Materials,Industrial Gases,Gas adsorption
+Utilities,Gas Utilities,Gas distribution
+Utilities,Gas Utilities,Gas retail
+Utilities,Renewable Electricity,Geothermal energy production
+Industrials,Building Products,Glass making
+Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Hotels and resorts provision
+Consumer Discretionary,Housewares & Specialties,Houseware and specialities production
+Utilities,Electric Utilities,Hydropower production
+Utilities,Independent Power Producers & Energy Traders,Hydropower production
+Utilities,Renewable Electricity,Hydropower production
+Materials,Diversified Chemicals,Incomplete combustion
+Industrials,Construction & Engineering,Infrastructure builds
+Consumer Discretionary,Advertising,Infrastructure holdings
+Consumer Discretionary,Apparel Retail,Infrastructure holdings
+Consumer Discretionary,Automotive Retail,Infrastructure holdings
+Consumer Discretionary,Broadcasting,Infrastructure holdings
+Consumer Discretionary,Computer & Electronics Retail,Infrastructure holdings
+Consumer Discretionary,Department Stores,Infrastructure holdings
+Consumer Discretionary,Education Services,Infrastructure holdings
+Consumer Discretionary,General Merchandise Stores,Infrastructure holdings
+Consumer Discretionary,Home Improvement Retail,Infrastructure holdings
+Consumer Discretionary,Home furnishing Retail,Infrastructure holdings
+Consumer Discretionary,Internet & Direct Marketing Retail,Infrastructure holdings
+Consumer Discretionary,Movies & Entertainment,Infrastructure holdings
+Consumer Discretionary,Publishing,Infrastructure holdings
+Consumer Discretionary,Specialty Stores,Infrastructure holdings
+Consumer Staples,Drug Retail,Infrastructure holdings
+Consumer Staples,Food Retail,Infrastructure holdings
+Consumer Staples,Hypermarkets & Super Centres,Infrastructure holdings
+Health Care,Health Care Services,Infrastructure holdings
+Health Care,Health Care Technology,Infrastructure holdings
+Industrials,Diversified Support Services,Infrastructure holdings
+Industrials,Human Resource & Employment Services,Infrastructure holdings
+Industrials,Research & Consulting Services,Infrastructure holdings
+Industrials,Security & Alarm Services,Infrastructure holdings
+Information Technology,IT Consulting & Other Services,Infrastructure holdings
+Information Technology,Office Services & Supplies,Infrastructure holdings
+Utilities,Electric Utilities,Infrastructure holdings
+Utilities,Independent Power Producers & Energy Traders,Infrastructure holdings
+Industrials,Construction & Engineering,Infrastructure maintenance contracts
+Energy,Integrated Oil & Gas,Integrated oil and gas
+Materials,Iron,Iron extraction
+Materials,Iron,Iron metal production
+Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Jewellery production
+Materials,Forest Products,Large-scale forestry
+Consumer Staples,Agricultural Products,Large-scale irrigated arable crops
+Consumer Staples,Agricultural Products,Large-scale livestock (beef and dairy)
+Consumer Staples,Agricultural Products,Large-scale rainfed arable crops
+Consumer Discretionary,Casinos & Gaming,Leisure facility provision
+Health Care,Biotechnology manufacturing,"Life science, pharma and biotech manufacture"
+Health Care,Life Sciences manufacturing,"Life science, pharma and biotech manufacture"
+Health Care,Pharmaceuticals manufacturing,"Life science, pharma and biotech manufacture"
+Health Care,Biotechnology services,"Life science, pharma and biotech tools and services"
+Health Care,Life Sciences Tools services,"Life science, pharma and biotech tools and services"
+Health Care,Pharmaceuticals services,"Life science, pharma and biotech tools and services"
+Health Care,Managed Health Care,Managed health care
+Consumer Discretionary,Auto Parts & Equipment,"Manufacture of machinery, parts and equipment"
+Consumer Discretionary,Automobile Manufacturers,"Manufacture of machinery, parts and equipment"
+Consumer Discretionary,Home Furnishings,"Manufacture of machinery, parts and equipment"
+Consumer Discretionary,Household Appliances,"Manufacture of machinery, parts and equipment"
+Consumer Discretionary,Motorcycle Manufacturers,"Manufacture of machinery, parts and equipment"
+Energy,Oil & Gas Equipment & Services,"Manufacture of machinery, parts and equipment"
+Industrials,Aerospace & Defense,"Manufacture of machinery, parts and equipment"
+Industrials,Agricultural & Farm Machinery,"Manufacture of machinery, parts and equipment"
+Industrials,Construction Machinery & Heavy Trucks,"Manufacture of machinery, parts and equipment"
+Industrials,Heavy Electrical Equipment,"Manufacture of machinery, parts and equipment"
+Industrials,Industrial Machinery,"Manufacture of machinery, parts and equipment"
+Industrials,Trucking,"Manufacture of machinery, parts and equipment"
+Industrials,Marine Ports & Services,Marine ports and services
+Industrials,Marine,Marine transportation
+Materials,Industrial Gases,Membrane technology
+Materials,Metal & Glass Containers,Metal processing
+Energy,Coal & Consumable Fuels,Mining
+Materials,Aluminium,Mining
+Materials,Copper,Mining
+Materials,Diversified Metals & Mining,Mining
+Materials,Gold,Mining
+Materials,Precious Metals & Minerals,Mining
+Materials,Silver,Mining
+Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Natural fibre production
+Consumer Discretionary,Textiles,Natural fibre production
+Materials,Industrial Gases,Natural gas combustion
+Utilities,Electric Utilities,Nuclear and thermal power stations
+Utilities,Independent Power Producers & Energy Traders,Nuclear and thermal power stations
+Energy,Oil & Gas Drilling,Oil and gas drilling
+Energy,Oil & Gas Exploration & Production,Oil and gas exploration surveys
+Energy,Oil & Gas Refining & Marketing,Oil and gas refining
+Energy,Oil & Gas Equipment & Services,Oil and gas services
+Energy,Oil & Gas Storage & Transportation,Oil and gas storage
+Energy,Oil & Gas Storage & Transportation,Oil and gas transportation
+Materials,Paper Packaging,Paper packaging production
+Materials,Diversified Chemicals,Polymerization
+Consumer Staples,Packaged Foods & Meats,Processed food and drink production
+Consumer Staples,Soft Drinks,Processed food and drink production
+Materials,Forest Products,Production of forest and wood-based products
+Consumer Discretionary,Leisure Products,Production of leisure or personal products
+Consumer Staples,Personal Products,Production of leisure or personal products
+Materials,Paper Products,Production of paper products
+Health Care,Health Care Facilities,Provision of health care
+Industrials,Railroads,Railway transportation
+Real Estate,Diversified Real Estate Activities,Real estate activities
+Real Estate,Real Estate Development,Real estate activities
+Real Estate,Real Estate Operating Companies,Real estate activities
+Real Estate,Real Estate Services,Real estate activities
+Materials,Industrial Gases,Recovery and separation of carbon dioxide
+Consumer Discretionary,Restaurants,Restaurant provision
+Consumer Staples,Agricultural Products,Saltwater wild-caught fish
+Information Technology,Semiconductor Equipment,Manufacture of semiconductor equipment
+Materials,Forest Products,Small-scale forestry
+Consumer Staples,Agricultural Products,Small-scale irrigated arable crops
+Consumer Staples,Agricultural Products,Small-scale livestock (beef and dairy)
+Consumer Staples,Agricultural Products,Small-scale rainfed arable crops
+Utilities,Renewable Electricity,Solar energy provision
+Materials,Specialty Chemicals,Solids processing
+Materials,Steel,Steel production
+Materials,Fertilizers & Agricultural Chemicals,Synthetic fertilizer production
+Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Synthetic fibre production
+Consumer Discretionary,Textiles,Synthetic fibre production
+Telecommunication Services,Integrated Telecommunication Services,Telecommunication and wireless services
+Telecommunication Services,Wireless Telecommunication Services,Telecommunication and wireless services
+Consumer Staples,Tobacco,Tobacco production
+Consumer Discretionary,Tires & Rubber,Tyre and rubber production
+Materials,Diversified Chemicals,Vulcanisation
+Utilities,Water Utilities,"Water services (e.g. waste water, treatment and distribution)"
+Utilities,Renewable Electricity,Wind energy provision
