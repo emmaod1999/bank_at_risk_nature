@@ -13,6 +13,8 @@ $ micromamba activate banks_at_risk
 - run_all_analysis.py: will run all the code and produce figures
 - if you wish to anonymize the banks, edit the run_all_analysis.py script so that anonymize=True in line 29. 
 
-## Required Data Inputs - ECB
+## Required Data Inputs
 - Input bank portfolio data into Data/financial_data/Entities_alloc with each bank portfolio as a separate csv named as the bank 
-- Two examples have been included for formatting purposes
+- An empty sheet has been included for formatting purposes
+- The EXIOBASE depository is also not included and can be downloaded (IOT_2022_ixi.zip) here: https://zenodo.org/records/5589597
+- Put the EXIOBASE zipfile in the exiobase_download_online folder in the Data depository (/src/banks_at_risk/Data/exiobase_download_online/)
