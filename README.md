@@ -2,6 +2,13 @@
 
 A Package that will take sector-region data for banks and produce the nVAR metric. 
 
+Code and Publicly Available Data for "Banks at Risk: Quantifying Endogenous Nature Risk Exposure of G-SIBs" paper
+
+This is the code for the research presented in "Banks at Risk: Quantifying Endogenous Nature Risk Exposure of G-SIBs"
+
+The code was written on a Windows 11 Home Operating System (OS Build: 22631.3880) using JetBrains PyCharm 2023.2.4 and Python 3.9.13. No non-standard hardware is required. Install time on a "normal" computer should be minimal.
+The template for the format of the data is in the financial_data folder in the financial_data_no_K.csv file and the file should populated with relevant Bank data. A demo file is included with example bank data to run the analysis.
+
 ## Files 
 
 - env.yml: Specifies conda environment to run in micromamba:
