@@ -26,21 +26,21 @@ def calc_nVAR_GSIB():
     GSIB_calculate_finance_var(finance_df, 'min')
     GSIB_calculate_finance_var(finance_df, 'max')
 
-    # get system values
-    # aggregate the financial data to the system level by combining the individual contributions by each bank
-    system_finance_df = finance_df.reset_index().drop(columns =['Bank', 'Total Loan', 'Proportion of Loans']).groupby(['region', 'sector']).sum()
-    # name the bank "System"
-    system_finance_df['Bank'] = ['System'] * system_finance_df.shape[0]
-    system_finance_df = system_finance_df.reset_index().set_index(['Bank', 'region', 'sector'])
-    # calculate the total portfolio value of the system
-    system_finance_df['Total Loan'] = [system_finance_df['EUR m adjusted'].sum()] * system_finance_df.shape[0]
-    # calculate the propotion of the system exposed to each sector-region pair
-    system_finance_df['Proportion of Loans'] = system_finance_df['EUR m adjusted'] / system_finance_df['Total Loan']
-
-    # calculate the endogenous risk of the system with each of the three methodological treatments (mean, max, min)
-    GSIB_calculate_finance_var_system(system_finance_df, 'mean')
-    GSIB_calculate_finance_var_system(system_finance_df, 'min')
-    GSIB_calculate_finance_var_system(system_finance_df, 'max')
+    # # get system values
+    # # aggregate the financial data to the system level by combining the individual contributions by each bank
+    # system_finance_df = finance_df.reset_index().drop(columns =['Bank', 'Total Loan', 'Proportion of Loans']).groupby(['region', 'sector']).sum()
+    # # name the bank "System"
+    # system_finance_df['Bank'] = ['System'] * system_finance_df.shape[0]
+    # system_finance_df = system_finance_df.reset_index().set_index(['Bank', 'region', 'sector'])
+    # # calculate the total portfolio value of the system
+    # system_finance_df['Total Loan'] = [system_finance_df['EUR m adjusted'].sum()] * system_finance_df.shape[0]
+    # # calculate the propotion of the system exposed to each sector-region pair
+    # system_finance_df['Proportion of Loans'] = system_finance_df['EUR m adjusted'] / system_finance_df['Total Loan']
+    #
+    # # calculate the endogenous risk of the system with each of the three methodological treatments (mean, max, min)
+    # GSIB_calculate_finance_var_system(system_finance_df, 'mean')
+    # GSIB_calculate_finance_var_system(system_finance_df, 'min')
+    # GSIB_calculate_finance_var_system(system_finance_df, 'max')
 
     return None
 

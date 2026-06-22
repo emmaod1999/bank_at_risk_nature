@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import os
 from pathlib import Path
 from banks_at_risk.Setup.finance_paths import GSIB_compiled_sheet_path
 from banks_at_risk.Setup.NACE_conversion_paths import NACE_letters_path, L_NACE_saving_path, I_NACE_saving_path
@@ -7,6 +8,7 @@ from banks_at_risk.Setup.dependency_paths import scope1_dependency_max_path, sco
 from banks_at_risk.Setup.impact_paths import scope1_impact_max_path, scope1_impact_mean_path, scope1_impact_min_path
 from banks_at_risk.Utils.exio_ops import read_exio
 from banks_at_risk.Setup.EXIO_paths import EXIO_file_path
+from banks_at_risk.Setup.var_paths import GSIB_var_results_folder
 
 
 def finance_GSIB_reformat():
@@ -157,7 +159,7 @@ def GSIB_var_calc_scope_1_sector(score, finance_data_df, type, folder):
     # save the endogenous risk to the appropriate path in the data repository
     # # scope 1
     imp_dep_compile_cols_storing_var_finance_scope_1_df.to_csv(
-        f'../Data/Value at Risk/Finance/{folder}/{score_name} Finance VaR Scope 1.csv')
+        f'{GSIB_var_results_folder}/{folder}/{score_name} Finance VaR Scope 1.csv')
     storing_list.append(imp_dep_compile_cols_storing_var_finance_scope_1_df)
 
     return storing_list
@@ -252,8 +254,9 @@ def GSIB_var_calc_scope_1(impact_score_df, dependency_score_df, finance_data_df,
             bank_data_w_region_df = pd.merge(bank_data_df.drop(columns=['Total Loan', 'sector', 'Bank', 'Proportion of Loans']).groupby(['region']).sum(), bank_data_df.drop(columns=['Total Loan', 'Proportion of Loans']), right_on=['region'], left_on=['region'])
             bank_data_w_region_df['region proportion'] = np.where(bank_data_w_region_df['EUR m adjusted_x'] == 0, 0, bank_data_w_region_df['EUR m adjusted_y'] / bank_data_w_region_df['EUR m adjusted_x'])
 
-            # combine the bank data with sectoral proportion by region with the combined score
+            # combine the bank data with sectoral proportion by region with the co
             # finance
+            # combined score
             # if the score contains sector and region
             if (type == "region_code"):
                 compiled_scope_1_df = bank_data_w_region_df.merge(
@@ -285,7 +288,7 @@ def GSIB_var_calc_scope_1(impact_score_df, dependency_score_df, finance_data_df,
     # load the services
     # # scope 1
     imp_dep_compile_cols_storing_var_finance_scope_1_df.to_csv(
-        f'../Data/Value at Risk/Finance/{folder}/{impact_score_name} {dependency_score_name} Finance VaR Scope 1.csv')
+        f'{GSIB_var_results_folder}/{folder}/{impact_score_name} {dependency_score_name} Finance VaR Scope 1.csv')
     storing_list.append(imp_dep_compile_cols_storing_var_finance_scope_1_df)
 
     return storing_list
@@ -1022,22 +1025,24 @@ def GSIB_calculate_finance_var(finance_df, score_type):
     # read the scores from the appropriate paths and generate the combined impact and dependecy score used to calculate
     # the sector-level endogenous risk
     combined_df, impact_df, dependency_df = GSIB_calculate_direct_var(impact_path, dependency_path)
-
-    # calculate the endogenous risk at the sector-level based on the provided financial data
-    # combined is the sectoral score multiplying dependency and impact for each sector directly
-    GSIB_var_calc_scope_1_sector(combined_df, finance_df, 'region_code', 'GSIB/Both/Sectoral')
-
-    # calculate the direct operations endogneous risk at the bank portfolio-level
-    GSIB_var_calc_scope_1(impact_df, dependency_df, finance_df,'region_code', 'GSIB/Both')
-    # calculate the direct operations impact risk
-    GSIB_var_calc_scope_1_sector(impact_df, finance_df, 'region_code', 'GSIB/Impact')
-    # calculate the direct operations dependency risk
-    GSIB_var_calc_scope_1_sector(dependency_df, finance_df, 'region_code', 'GSIB/Dependency')
-
-    # calculate the upstream supply chain endogenous risk at the bank portfolio-level
-    finance_var_calc_scope_3_combined(impact_df, dependency_df, finance_df, 'region_code', 'GSIB/')
-    # calculate the upstream supply chain endogenous risk at the sector-level
+    # #
+    # # # calculate the endogenous risk at the sector-level based on the provided financial data
+    # # # combined is the sectoral score multiplying dependency and impact for each sector directly
+    # GSIB_var_calc_scope_1_sector(combined_df, finance_df, 'region_code', 'GSIB/Both/Sectoral')
+    # #
+    # # # calculate the direct operations endogneous risk at the bank portfolio-level
+    # GSIB_var_calc_scope_1(impact_df, dependency_df, finance_df,'region_code', 'GSIB/Both')
+    # # # calculate the direct operations impact risk
+    # GSIB_var_calc_scope_1_sector(impact_df, finance_df, 'region_code', 'GSIB/Impact')
+    # # calculate the direct operations dependency risk
+    # GSIB_var_calc_scope_1_sector(dependency_df, finance_df, 'region_code', 'GSIB/Dependency')
+    #
+    # # calculate the upstream supply chain endogenous risk at the bank portfolio-level
+    # finance_var_calc_scope_3_combined(impact_df, dependency_df, finance_df, 'region_code', 'GSIB/')
+    # # calculate the upstream supply chain endogenous risk at the sector-level
     finance_var_calc_scope_3_combined_sector(impact_df, dependency_df, finance_df, 'region_code', 'GSIB/')
+
+    # finance_var_calc_scope_3_combined_separatecsvs(impact_df, dependency_df, finance_df, 'region_code', 'GSIB/')
 
     return None
 
@@ -1065,16 +1070,16 @@ def GSIB_calculate_finance_var_system(finance_df, score_type):
 
     # calculate the endogenous risk at the sector-level based on the provided financial data
     # combined is the sectoral score multiplying dependency and impact for each sector directly
-    GSIB_var_calc_scope_1_sector(combined_df, finance_df, 'region_code', 'GSIB/System/Both/Sectoral')
-    # calculate the direct operations endogneous risk at the system-level
-    GSIB_var_calc_scope_1(impact_df, dependency_df, finance_df,'region_code', 'GSIB/System/Both')
-    # calculate the direct operations impact risk for the system
-    GSIB_var_calc_scope_1_sector(impact_df, finance_df, 'region_code', 'GSIB/System/Impact')
-    # calculate the direct operations dependency risk for the system
-    GSIB_var_calc_scope_1_sector(dependency_df, finance_df, 'region_code', 'GSIB/System/Dependency')
+    # GSIB_var_calc_scope_1_sector(combined_df, finance_df, 'region_code', 'GSIB/System/Both/Sectoral')
+    # # calculate the direct operations endogneous risk at the system-level
+    # GSIB_var_calc_scope_1(impact_df, dependency_df, finance_df,'region_code', 'GSIB/System/Both')
+    # # calculate the direct operations impact risk for the system
+    # GSIB_var_calc_scope_1_sector(impact_df, finance_df, 'region_code', 'GSIB/System/Impact')
+    # # calculate the direct operations dependency risk for the system
+    # GSIB_var_calc_scope_1_sector(dependency_df, finance_df, 'region_code', 'GSIB/System/Dependency')
 
     # calculate the upstream supply chain endogenous risk at the system-level
-    finance_var_calc_scope_3_combined(impact_df, dependency_df, finance_df, 'region_code', 'GSIB/System/')
+    # finance_var_calc_scope_3_combined(impact_df, dependency_df, finance_df, 'region_code', 'GSIB/System/')
     # calculate the upstream supply chain endogenous risk at the sector-level
     finance_var_calc_scope_3_combined_sector(impact_df, dependency_df, finance_df, 'region_code', 'GSIB/System/')
 
@@ -1122,3 +1127,330 @@ def GSIB_calculate_direct_var(scope1_impact_NACE_path, scope1_dependency_NACE_pa
     combined_df.name = f"Impact {imp_score_type} and Dependency {dep_score_type}"
 
     return combined_df, impact_df, dependency_df
+
+
+
+def finance_var_calc_scope_3_combined_separatecsvs(imp_score_df, dep_score_df, finance_data_NACE_region_grouped_w_total_df, type, folder):
+    """
+    This function calculates the upstream supply chain endogenous risk at the bank portfolio-level and stores the
+    results in the data repository. It also calculates the impact and depedency risk of the banks separately as well.
+    :param imp_score_df: dataframe of the impact score that you want to use to calculate the value at risk
+    :param dep_score_df: dataframe of the dependency score that you want to use to calculate the value at risk
+    :param finance_data_NACE_region_grouped_w_total_df: the finance of the bank you want to calculate with (formatted)
+    :param folder: subfolder for storing the risk exposure in the data repository
+    :param type: describes whether the score has sector and regions or just sectors or just regions
+    :return: list of dataframes that correspond to the finance_var and the rows for the finance_var plus the scores
+    """
+    # check if type is an accepted type
+    if type != 'region_code' and type != 'code_only' and type != 'region_only':
+        print('ERROR: Type must be "region_code" or "code_only" or "region_only"')
+        return
+
+    # create a list to store the results
+    storing_list = []
+
+    # calculate the relative weighting of sector-region pairs in upstream supply chains
+    ### calculate overlined((L -1)), relative impact dependency matrix
+    # generate the Leontief matrix without the sector itself in its own upstream supply chain
+    L_min_I_path = f'../Data/finance_exiobase_conversion/L_min_I.csv'
+    if os.path.exists(L_min_I_path):
+        L_min_I = pd.read_csv(L_min_I_path, header=[0, 1], index_col=[0, 1])
+    else:
+        L_min_I = calc_L_min_I_full()
+        L_min_I.to_csv(L_min_I_path)
+    L_min_I_numpy = L_min_I.to_numpy(dtype=float)
+    # get the column sums of the L_matrix without itself included in supply chain
+    col_sums = np.sum(L_min_I, axis=0)
+    col_sums = col_sums.to_numpy(dtype=float)
+    # divide each element by its column sum to get the relative importance in the upstream supply chain
+    with np.errstate(divide='ignore', invalid='ignore'):
+        rel_imp_array = np.where(col_sums == 0, 0, np.divide(L_min_I_numpy, col_sums[np.newaxis, :]))
+
+    # get the weights for the contribution of each sector,region pair to the supply chain - formatting for next steps
+    L_weights = pd.DataFrame(rel_imp_array, index=L_min_I.index, columns=L_min_I.columns)
+    upstream_calc = L_weights.copy().reset_index()
+    upstream_calc_format = upstream_calc.T.reset_index().T.rename(columns={0: 'region', 1: 'sector'})
+    upstream_calc_format.loc['sector', 'region'] = 'region'
+    upstream_calc_format.loc['sector', 'sector'] = 'sector'
+
+    # list of banks
+    banks = np.unique(finance_data_NACE_region_grouped_w_total_df.reset_index()['Bank'])
+    # list of ecosystem services
+    services = imp_score_df.columns
+
+    # multiply the weighted sum for Leontief by the impact region score (based on investment location)
+    # plus the dependency score for the sector region L_weighted * (impact region) * (dependency sector)
+
+    # for the storing the score-level scores
+    # both
+    imp_dep_compile_cols_df = pd.DataFrame(index=L_min_I.index)
+    imp_dep_compile_rows_df = pd.DataFrame(index=np.unique(L_min_I.reset_index()['region']))
+    # imp
+    imp_compile_cols_df = pd.DataFrame(index=L_min_I.index)
+    imp_compile_rows_df = pd.DataFrame(index=L_min_I.index)
+    # dep
+    dep_compile_cols_df = pd.DataFrame(index=L_min_I.index)
+    dep_compile_rows_df = pd.DataFrame(index=L_min_I.index)
+
+    # storing endogenous risk throughout calculating
+    # cols is for the source sector (the sector-region's score for its upstream supply chain)
+    # rows is for the sector contributing in the value chain (the sector-region scores within the value chains of others
+    # both - endogenous risk
+    imp_dep_compile_cols_var_finance_df = pd.DataFrame(index=L_min_I.index)
+    imp_dep_compile_rows_var_finance_df = pd.DataFrame(index=np.unique(L_min_I.reset_index()['region']))
+    # impact only
+    imp_compile_cols_var_finance_df = pd.DataFrame(index=L_min_I.index)
+    imp_compile_rows_var_finance_df = pd.DataFrame(index=L_min_I.index)
+    # dependency only
+    dep_compile_cols_var_finance_df = pd.DataFrame(index=L_min_I.index)
+    dep_compile_rows_var_finance_df = pd.DataFrame(index=L_min_I.index)
+
+    # for storing the column sums for the score-level scores throughout calculating
+    # overall endogenous risk for the ecosystem service from source sector's upstream supply chain
+    # both - endogenous risk
+    imp_dep_compile_cols_storing_df = pd.DataFrame(columns=services)
+    # impact only
+    imp_compile_cols_storing_df = pd.DataFrame(columns=services)
+    # dependency only
+    dep_compile_cols_storing_df = pd.DataFrame(columns=services)
+
+
+    # for storing the row sums for the score-level scores throughout calculating
+    # overall endogenous risk contributed by sector-region in the supply chain of others
+    # both - endogenous risk
+    imp_dep_compile_rows_storing_df = pd.DataFrame(columns=services)
+    # impact only
+    imp_compile_rows_storing_df = pd.DataFrame(columns=services)
+    # dependency only
+    dep_compile_rows_storing_df = pd.DataFrame(columns=services)
+
+    # store scores
+    # impact scores
+    imp_df = imp_score_df.copy()
+    imp_score_name = imp_score_df.name
+    # dependency
+    dep_df = dep_score_df.copy()
+    dep_score_name = dep_score_df.name
+
+    # loop through banks
+    for bank in banks:
+        # fill the bank column with the name of the bank
+        # source sectors
+        # both - endogenous risk
+        imp_dep_compile_cols_one_bank_df = imp_dep_compile_cols_df.copy()
+        imp_dep_compile_cols_one_bank_df['Bank'] = [f'{bank}'] * imp_dep_compile_cols_df.shape[0]
+        # impact only
+        imp_compile_cols_one_bank_df = imp_compile_cols_df.copy()
+        imp_compile_cols_one_bank_df['Bank'] = [f'{bank}'] * imp_compile_cols_df.shape[0]
+        # dependency only
+        dep_compile_cols_one_bank_df = dep_compile_cols_df.copy()
+        dep_compile_cols_one_bank_df['Bank'] = [f'{bank}'] * dep_compile_cols_df.shape[0]
+
+        # rows - value chain sectors
+        # both - endogenous risk
+        imp_dep_compile_rows_one_bank_df = imp_dep_compile_rows_df.copy()
+        imp_dep_compile_rows_one_bank_df['Bank'] = [f'{bank}'] * imp_dep_compile_rows_df.shape[0]
+        # impact only
+        imp_compile_rows_one_bank_df = imp_compile_rows_df.copy()
+        imp_compile_rows_one_bank_df['Bank'] = [f'{bank}'] * imp_compile_rows_df.shape[0]
+        # dependency only
+        dep_compile_rows_one_bank_df = dep_compile_rows_df.copy()
+        dep_compile_rows_one_bank_df['Bank'] = [f'{bank}'] * dep_compile_rows_df.shape[0]
+
+        # value at risk finance - source sectors
+        # both - endogenous risk
+        imp_dep_compile_cols_one_bank_var_finance_df = imp_dep_compile_cols_var_finance_df.copy()
+        imp_dep_compile_cols_one_bank_var_finance_df['Bank'] = [f'{bank}'] * imp_dep_compile_cols_var_finance_df.shape[
+            0]
+        # dependency only
+        dep_compile_cols_one_bank_var_finance_df = dep_compile_cols_var_finance_df.copy()
+        dep_compile_cols_one_bank_var_finance_df['Bank'] = [f'{bank}'] * dep_compile_cols_var_finance_df.shape[
+            0]
+        # impact only
+        imp_compile_cols_one_bank_var_finance_df = imp_compile_cols_var_finance_df.copy()
+        imp_compile_cols_one_bank_var_finance_df['Bank'] = [f'{bank}'] * imp_compile_cols_var_finance_df.shape[
+            0]
+
+        # value at risk finance rows - value chian sectors
+        # value at risk finance
+        # both - enodgenous risk
+        imp_dep_compile_rows_one_bank_var_finance_df = imp_dep_compile_rows_var_finance_df.copy()
+        imp_dep_compile_rows_one_bank_var_finance_df['Bank'] = [f'{bank}'] * imp_dep_compile_rows_var_finance_df.shape[
+            0]
+        # impact only
+        imp_compile_rows_one_bank_var_finance_df = imp_compile_rows_var_finance_df.copy()
+        imp_compile_rows_one_bank_var_finance_df['Bank'] = [f'{bank}'] * imp_compile_rows_var_finance_df.shape[
+            0]
+        # dependency only
+        dep_compile_rows_one_bank_var_finance_df = dep_compile_rows_var_finance_df.copy()
+        dep_compile_rows_one_bank_var_finance_df['Bank'] = [f'{bank}'] * dep_compile_rows_var_finance_df.shape[
+            0]
+
+        # get financial data for Bank
+        bank_data_df = finance_data_NACE_region_grouped_w_total_df.reset_index()[finance_data_NACE_region_grouped_w_total_df.reset_index()['Bank'] == bank].set_index(
+            ['region', 'sector'])
+        full_index = pd.DataFrame(index=L_min_I.index)
+        bank_data_df = bank_data_df.merge(full_index, how='right', right_index=True, left_index=True)
+        bank_data_df = bank_data_df.fillna(0.0)
+        bank_data_dict = bank_data_df['Proportion of Loans'].to_dict()
+        bank_data_absolute_dict = bank_data_df['EUR m adjusted'].to_dict()
+
+        # loop through ecosystem services
+        for service in services:
+            # impact only - upstream supply chain score calculation
+            # if score has sector and region
+            if type == 'region_code':
+                # get the scores and the weighted L in one DF
+                compiled_imp_df = upstream_calc_format.merge(
+                    imp_df[service].reset_index(), how='outer', left_on=['region', 'sector'],
+                    right_on=['region', 'sector'])
+                compiled_imp_df = compiled_imp_df.fillna(0.0)
+            # if score has sector only
+            if type == 'code_only':
+                # get the scores and the weighted L in one DF
+                compiled_imp_df = upstream_calc_format.merge(
+                    imp_df[service].reset_index(), how='outer', left_on=['sector'],
+                    right_on=['sector'])
+                compiled_imp_df = compiled_imp_df.fillna(0.0)
+            # if score has region only
+            if type == 'region_only':
+                # get the scores and the weighted L in one DF
+                compiled_imp_df = upstream_calc_format.merge(
+                    imp_df[service].reset_index(), how='outer', left_on=['region'],
+                    right_on=['region'])
+                compiled_imp_df = compiled_imp_df.fillna(0.0)
+
+            # multiply the weighted average by the score
+            compiled_imp_df = compiled_imp_df.set_index(['region', 'sector'])
+            compiled_imp_df = compiled_imp_df.T.set_index(('region', 'sector')).T
+            service_imp_df = compiled_imp_df[(0.0,0.0)]
+            service_imp_df = service_imp_df[0:(L_min_I.shape[0])]
+            service_imp_df = service_imp_df.astype(float)
+            calc_imp_df = compiled_imp_df.drop(columns =(0.0,0.0))
+            calc_imp_df = calc_imp_df.astype(float)
+            multiplied_imp_df = np.multiply(calc_imp_df.to_numpy(), service_imp_df.to_numpy()[:, np.newaxis])
+            imp_dep_compile_service_imp_df = pd.DataFrame(multiplied_imp_df, index=calc_imp_df.index, columns=calc_imp_df.columns)
+
+            # dependency only - upstream supply chain score calculation
+            # if score has sector and region
+            if type == 'region_code':
+                # get the scores and the weighted L in one DF
+                compiled_dep_df = upstream_calc_format.merge(
+                    dep_df[service].reset_index(), how='outer', left_on=['region', 'sector'],
+                    right_on=['region', 'sector'])
+                compiled_dep_df = compiled_dep_df.fillna(0.0)
+            # if score has sector only
+            if type == 'code_only':
+                # get the scores and the weighted L in one DF
+                compiled_dep_df = upstream_calc_format.merge(
+                    dep_df[service].reset_index(), how='outer', left_on=['sector'],
+                    right_on=['sector'])
+                compiled_dep_df = compiled_dep_df.fillna(0.0)
+            # if score has region only
+            if type == 'region_only':
+                # get the scores and the weighted L in one DF
+                compiled_dep_df = upstream_calc_format.merge(
+                    dep_df[service].reset_index(), how='outer', left_on=['region'],
+                    right_on=['region'])
+                compiled_dep_df = compiled_dep_df.fillna(0.0)
+
+            # multiply the weighted average by the score
+            compiled_dep_df = compiled_dep_df.set_index(['region', 'sector'])
+            compiled_dep_df = compiled_dep_df.T.set_index(('region', 'sector')).T
+            service_dep_df = compiled_dep_df[(0.0, 0.0)]
+            service_dep_df = service_dep_df[0:(L_min_I.shape[0])]
+            service_dep_df = service_dep_df.astype(float)
+            calc_dep_df = compiled_dep_df.drop(columns=(0.0, 0.0))
+            calc_dep_df = calc_dep_df.astype(float)
+            multiplied_dep_df = np.multiply(calc_dep_df.to_numpy(), service_dep_df.to_numpy()[:, np.newaxis])
+            imp_dep_compile_service_dep_df = pd.DataFrame(multiplied_dep_df, index=calc_dep_df.index,
+                                                          columns=calc_dep_df.columns)
+
+
+            # combine the impact and dependency scores
+            # sum the rows by the region
+            # both - endogenous risk
+            imp_dep_compile_service_dep_region_df = imp_dep_compile_service_dep_df.reset_index().drop(columns='sector').groupby('region').sum()
+            imp_dep_compile_service_imp_region_df = imp_dep_compile_service_imp_df.reset_index().drop(columns='sector').groupby('region').sum()
+            imp_dep_compile_service_df = imp_dep_compile_service_dep_region_df * imp_dep_compile_service_imp_region_df
+
+            # combine the impact and dependency score value at risks
+            # multiply score by the absolute value of finance to sr to get endogenous risk
+            imp_dep_compile_service_finance_VaR_df = imp_dep_compile_service_df
+            imp_dep_compile_service_finance_VaR_df = imp_dep_compile_service_finance_VaR_df.mul(
+                bank_data_absolute_dict, axis='columns')
+
+            # multiply dependency/impact score separately by absolute value of finance to sr to get VaR
+            # dependency only
+            dep_compile_service_finance_VaR_df = imp_dep_compile_service_dep_df
+            dep_compile_service_finance_VaR_df = imp_dep_compile_service_dep_df.mul(
+                bank_data_absolute_dict, axis='columns')
+            # impact only
+            imp_compile_service_finance_VaR_df = imp_dep_compile_service_imp_df
+            imp_compile_service_finance_VaR_df = imp_dep_compile_service_imp_df.mul(
+                bank_data_absolute_dict, axis='columns')
+
+            # both - endogenous risk
+            # get the column sums for one bank for the scores
+            imp_dep_compile_cols_one_bank_df[service] = imp_dep_compile_service_df.sum()
+            # get the row sums for one bank and service into the greater the df
+            imp_dep_compile_rows_one_bank_df[f'{service}'] = imp_dep_compile_service_df.T.sum()
+            # dependency only
+            # get the column sums for one bank for the scores
+            dep_compile_cols_one_bank_df[service] = imp_dep_compile_service_dep_df.sum()
+            # get the row sums for one bank and service into the greater the df
+            dep_compile_rows_one_bank_df[f'{service}'] = imp_dep_compile_service_dep_df.T.sum()
+            # impact only
+            # get the column sums for one bank for the scores
+            imp_compile_cols_one_bank_df[service] = imp_dep_compile_service_imp_df.sum()
+            # get the row sums for one bank and service into the greater the df
+            imp_compile_rows_one_bank_df[f'{service}'] = imp_dep_compile_service_imp_df.T.sum()
+
+
+            # both - endogenous risk
+            # get column sums for one bank for the value at risk finance
+            imp_dep_compile_cols_one_bank_var_finance_df[service] = imp_dep_compile_service_finance_VaR_df.sum()
+            # get the row sums for one bank and service into the greater the df
+            imp_dep_compile_rows_one_bank_var_finance_df[f'{service}'] = imp_dep_compile_service_finance_VaR_df.T.sum()
+            # impact only
+            # get column sums for one bank for the value at risk finance
+            imp_compile_cols_one_bank_var_finance_df[service] = imp_compile_service_finance_VaR_df.sum()
+            # get the row sums for one bank and service into the greater the df
+            imp_compile_rows_one_bank_var_finance_df[f'{service}'] = imp_compile_service_finance_VaR_df.T.sum()
+            # dependency only
+            # get column sums for one bank for the value at risk finance
+            dep_compile_cols_one_bank_var_finance_df[service] = dep_compile_service_finance_VaR_df.sum()
+            # get the row sums for one bank and service into the greater the df
+            dep_compile_rows_one_bank_var_finance_df[f'{service}'] = dep_compile_service_finance_VaR_df.T.sum()
+
+
+        # both - endogenous risk
+        # save the bank csv
+        # columns
+        imp_dep_compile_cols_one_bank_var_finance_df.name = f'{bank} {imp_score_name} {dep_score_name} Both Finance VaR Source'
+        imp_dep_compile_cols_one_bank_var_finance_df.to_csv(f'../Data/Value at Risk/Finance/{folder}Both/Scope_3_Source/{imp_dep_compile_cols_one_bank_var_finance_df.name}.csv')
+        # rows
+        imp_dep_compile_rows_one_bank_var_finance_df.name = f'{bank} {imp_score_name} {dep_score_name} Both Finance VaR Value Chain'
+        imp_dep_compile_rows_one_bank_var_finance_df.to_csv(f'../Data/Value at Risk/Finance/{folder}Both/Scope_3_Value_Chain/{imp_dep_compile_rows_one_bank_var_finance_df.name}.csv')
+
+
+        # impact only
+        # save the bank csv
+        # columns
+        imp_compile_cols_one_bank_var_finance_df.name = f'{bank} {imp_score_name} Impact Finance VaR Source'
+        imp_compile_cols_one_bank_var_finance_df.to_csv(f'../Data/Value at Risk/Finance/{folder}Impact/Scope_3_Source/{imp_compile_cols_one_bank_var_finance_df.name}.csv')
+        # rows
+        imp_compile_rows_one_bank_var_finance_df.name = f'{bank} {imp_score_name} Impact Finance VaR Value Chain'
+        imp_compile_rows_one_bank_var_finance_df.to_csv(f'../Data/Value at Risk/Finance/{folder}Impact/Scope_3_Value_Chain/{imp_compile_rows_one_bank_var_finance_df.name}.csv')
+
+        # dependency
+        # save the bank csv
+        # columns
+        dep_compile_cols_one_bank_var_finance_df.name = f'{bank} {dep_score_name} Dependency Finance VaR Source'
+        dep_compile_cols_one_bank_var_finance_df.to_csv(f'../Data/Value at Risk/Finance/{folder}Dependency/Scope_3_Source/{dep_compile_cols_one_bank_var_finance_df.name}.csv')
+        # rows
+        dep_compile_rows_one_bank_var_finance_df.name = f'{bank} {dep_score_name} Dependency Finance VaR Value Chain'
+        dep_compile_rows_one_bank_var_finance_df.to_csv(f'../Data/Value at Risk/Finance/{folder}Dependency/Scope_3_Value Chain/{dep_compile_rows_one_bank_var_finance_df.name}.csv')
+
+
+    return None
