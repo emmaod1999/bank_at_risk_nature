@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from banks_at_risk.Setup.ENCORE_paths import ENCORE_to_EXIO_path
+from banks_at_risk.Setup.ENCORE_paths import ENCORE_to_EXIO_path, Updated_ENCORE_to_EXIO_path
 
 
 def read_encore_to_exio():
@@ -73,3 +73,47 @@ def aggregate_poids(ENCORE_to_EXIO_df_restricted):
 
     return EXIO_to_ENCORE_df
 
+
+def ISIC_to_EXIO(nVAR_df, calc_type):
+    """
+    This function converts the nVAR values from the nVAR sectors (ISIC) to the EXIOBASE sectors.
+    :param nVAR_df: the nVAR values for an ESS
+    :param calc_type: The calculation type for the combination - mean, max and min
+    :return: the nVAR values to the EXIOBASE sectors
+    """
+    # get the EXIOBASE to ISIC crosswalk
+    ENCORE_to_EXIO_df = pd.read_csv(Updated_ENCORE_to_EXIO_path, header=[0], index_col=[0])
+
+    # do the class and group thing again
+    # merge with the IF at group level with those at the ISIC group-level
+    nVAR_group_df = nVAR_df.reset_index()[
+        nVAR_df.reset_index()['ISIC level used for analysis'] == 'Group'].drop(
+        columns=['ISIC Class']).merge(
+        ENCORE_to_EXIO_df.reset_index(), right_on=['ISIC Section', 'ISIC Division', 'ISIC Group'],
+        left_on=['ISIC Section', 'ISIC Division', 'ISIC Group'], how='outer').dropna()
+
+    # merge with the IF at class level with those at the ISIC class-level
+    nVAR_class_df = nVAR_df.reset_index()[
+        nVAR_df.reset_index()['ISIC level used for analysis'] == 'Class'].merge(
+        ENCORE_to_EXIO_df.reset_index(),
+        right_on=['ISIC Section', 'ISIC Division', 'ISIC Group', 'ISIC Class'],
+        left_on=['ISIC Section', 'ISIC Division', 'ISIC Group', 'ISIC Class'], how='outer').dropna()
+
+    # compiled class and ground into one dataframe and format
+    nVAR_EXIO_df = pd.concat([nVAR_group_df, nVAR_class_df]).set_index(
+        ['ISIC Unique code', 'ISIC Section', 'ISIC Division', 'ISIC Group', 'ISIC Class',
+         'ISIC level used for analysis'])
+
+    if calc_type == "mean":
+        nVAR_EXIO_df = nVAR_EXIO_df.reset_index().drop(columns=['ISIC Unique code', 'ISIC Section', 'ISIC Division', 'ISIC Group', 'ISIC Class',
+            'ISIC level used for analysis', 'NACE class', 'NACE Code and Level', 'NACElevel', 'NACE Code', 'ISIC Unique Group code', 'ISIC Unique Class code']).groupby(['EXIOBASE']).mean()
+    if calc_type == "min":
+        nVAR_EXIO_df = nVAR_EXIO_df.reset_index().drop(columns=['ISIC Unique code', 'ISIC Section', 'ISIC Division', 'ISIC Group', 'ISIC Class',
+            'ISIC level used for analysis', 'NACE class', 'NACE Code and Level', 'NACElevel', 'NACE Code', 'ISIC Unique Group code', 'ISIC Unique Class code']).groupby(['EXIOBASE']).min()
+    if calc_type == "max":
+        nVAR_EXIO_df = nVAR_EXIO_df.reset_index().drop(columns=['ISIC Unique code', 'ISIC Section', 'ISIC Division', 'ISIC Group', 'ISIC Class',
+            'ISIC level used for analysis', 'NACE class', 'NACE Code and Level', 'NACElevel', 'NACE Code', 'ISIC Unique Group code', 'ISIC Unique Class code']).groupby(['EXIOBASE']).max()
+
+    nVAR_EXIO_df = nVAR_EXIO_df.T
+
+    return nVAR_EXIO_df
